@@ -32,4 +32,5 @@ fields:
   default: now
 pages:
 - learn/_posts/brewing-guide.md
+- learn/_posts/meet-the-potter-minhi-park.md
 - learn/_posts/tea-101.md
