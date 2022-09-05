@@ -30,5 +30,3 @@ fields:
     display_utc: false
   hidden: true
   default: now
-pages:
-- learn/meet-the-potter-minna-graham.md
