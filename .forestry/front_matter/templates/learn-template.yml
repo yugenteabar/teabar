@@ -1,4 +1,21 @@
 ---
 label: Learn template
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: learn
+  hidden: true
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+- name: cover_image
+  type: file
+  config:
+    maxSize: 8
+  label: Cover Image
