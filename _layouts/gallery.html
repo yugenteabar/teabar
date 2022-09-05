@@ -1,0 +1,98 @@
+{% assign current_page = 'gallery' %}
+{% assign page_title = 'Gallery' %}
+{% assign pageUrl = page.path | split: "/" %}
+
+{% include head.html %}
+
+{% include nav.html %}
+
+<main class="container mx-auto pt-36 pb-8">
+  <div class="text-center"> 
+    <h1 class="page-title sm:mb-10">Gallery</h1>
+  </div>
+  <section>
+    <div class="mx-auto relative">
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/img/Birdseye image menu - Gallery image.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/Birdseye view Pastry - Gallery image.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/Interior shot - Gallery image.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/Interior Shot 2 - Gallery image.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/Outside night - Gallery image.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/Outside view - Gallery image.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/Outside view of pastry - Gallery image.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/Tea & Pastry - Gallery image.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/Teapot on bar - Gallery image.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="/img/View from outside window - Gallery.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white"
+          class="w-20 h-20">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+        </svg>
+      </div>
+      <div class="swiper-button-prev">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white" class="w-20 h-20">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+        </svg>        
+      </div>
+    </div>
+    <div class="swiper mySwiper mt-8" thumbsSlider="">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="/img/Birdseye image menu - Gallery image.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/img/Birdseye view Pastry - Gallery image.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/img/Interior shot - Gallery image.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/img/Interior Shot 2 - Gallery image.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/img/Outside night - Gallery image.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/img/Outside view - Gallery image.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/img/Outside view of pastry - Gallery image.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/img/Tea & Pastry - Gallery image.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/img/Teapot on bar - Gallery image.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/img/View from outside window - Gallery.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+{% include footer.html %}

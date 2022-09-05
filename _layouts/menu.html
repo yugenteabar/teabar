@@ -1,0 +1,88 @@
+{% assign current_page = 'menu' %}
+{% assign page_title = 'Menu' %}
+{% assign pageUrl = page.path | split: "/" %}
+
+{% include head.html %}
+
+{% include nav.html %}
+
+
+<main class="container mx-auto pt-32 pb-8">
+  <section class="flex flex-col sm:flex-row justify-between items-center mb-8">
+    <div class="w-45per sm:pr-8">
+      <h2 class="title">Day Offering</h2>
+      <div class="text mt-12">
+        <p>
+          Yugen's afternoon high tea is inspired by the classic English afternoon tea, with some bold twists and turns.
+          Let our tea sommeliers and pastry artists craft a Yugen moment for you to remember.
+        </p>
+        <p>
+          Each service is comprised of two acts - one savoury (think dainty sandwiches and seasonal bites), and one
+          sweet (pastries and scones with condiments), served with a carefully matched infusion, brewed and poured at
+          your table.
+        </p>
+        <p>
+          To enhance your experience, we offer a selection of alcohol-free beverages, cocktails and Champagne.
+          Refined yet relaxed, the moment is yours to create.
+        </p>
+      </div>
+      <div class="mt-10 flex text-link">
+        <a href="#" class="uppercase">
+          Day Menu
+          <div class="underline-animation"></div>
+        </a>
+      </div>
+    </div>
+    <div class="w-45per sm:pl-8 relative">
+      <div class="menu-section-image image-border-radius relative">
+        <img src="/img/afternoon-tea.jpeg" alt="Day offering" class="absolute -z-1">
+        <div class="absolute bottom-10 left-12">
+          <a href="#" class="uppercase">
+            Day Menu
+            <div class="underline-animation"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="flex flex-col sm:flex-row justify-between items-center mb-12">
+    <div class="w-45per sm:pr-8">
+      <h2 class="title">Yugen After Dark</h2>
+      <div class="text mt-12">
+        <p>
+          Tea Inspired cocktails, fine sakes, and elegantly plated desserts. Yugen Tea Bar continues to offer unique
+          experiences long after the sun goes down.
+        </p>
+        <p>
+          Enjoy an experience where mixology, sake, tea and patisserie are brought together in an interplay of flavour,
+          texture and exploration.
+        </p>
+        <p>
+          Come for a full-blown dessert degustation or drop by after dinner at your favourite restaurant for a drink.
+        </p>
+        <p>
+          Yugen Tea Bar is the perfect end or change-up for any night.
+        </p>
+      </div>
+      <div class="mt-10 flex text-link">
+        <a href="#" class="uppercase">
+          AFTER DARK MENU
+          <div class="underline-animation"></div>
+        </a>
+      </div>
+    </div>
+    <div class="w-45per sm:pl-8">
+      <div class="menu-section-image image-border-radius relative">
+        <img src="/img/After Dark Cocktail - Menu Page.jpg" alt="After Dark" class="absolute -z-1">
+        <div class="absolute bottom-10 right-12">
+          <a href="#" class="uppercase">
+            AFTER DARK MENU
+            <div class="underline-animation"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+{% include footer.html %}

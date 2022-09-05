@@ -1,0 +1,17 @@
+{% assign current_page = 'homepage' %}
+{% assign page_title = 'Welcome' %}
+{% assign pageUrl = page.path | split: "/" %}
+
+{% include head.html %}
+
+{% include nav.html %}
+
+<main class="cover-image">
+  <div class="enter-site animate__animated animate__fadeInUp">
+    <a href="/about">
+      Enter Site
+    </a>
+  </div>
+</main>
+
+{% include footer.html %}
