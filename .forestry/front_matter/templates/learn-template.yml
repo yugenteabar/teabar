@@ -31,4 +31,4 @@ fields:
   hidden: true
   default: now
 pages:
-- learn/_posts/tst.md
+- learn/_posts/2022-09-05-tst.md
