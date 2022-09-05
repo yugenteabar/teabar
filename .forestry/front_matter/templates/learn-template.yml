@@ -31,4 +31,5 @@ fields:
   hidden: true
   default: now
 pages:
+- learn/_posts/brewing-guide.md
 - learn/_posts/tea-101.md
