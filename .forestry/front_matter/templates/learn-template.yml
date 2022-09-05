@@ -30,3 +30,5 @@ fields:
     display_utc: false
   hidden: true
   default: now
+pages:
+- learn/_posts/tea-101.md
