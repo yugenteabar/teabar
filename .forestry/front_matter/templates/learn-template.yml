@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: layout
-  default: learn
+  default: post
   hidden: true
 - name: title
   type: text
