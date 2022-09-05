@@ -19,5 +19,16 @@ fields:
   config:
     maxSize: 8
   label: Cover Image
+- name: posted_on
+  type: datetime
+  label: Posted On
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  hidden: true
+  default: now
 pages:
 - learn/meet-the-potter-minna-graham.md
