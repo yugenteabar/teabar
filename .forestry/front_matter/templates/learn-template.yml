@@ -19,3 +19,5 @@ fields:
   config:
     maxSize: 8
   label: Cover Image
+pages:
+- learn/meet-the-potter-minna-graham.md
