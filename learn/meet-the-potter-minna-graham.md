@@ -2,7 +2,6 @@
 layout: learn
 title: 'Meet the potter: Minna Graham'
 cover_image: "/uploads/minnagraham.webp"
-published: false
 
 ---
 ### **Meet the potter: Minna Graham**
