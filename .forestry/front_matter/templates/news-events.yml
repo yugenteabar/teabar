@@ -31,6 +31,7 @@ fields:
   hidden: true
   default: now
 pages:
+- news/_posts/bastille-day-celebration-at-yugen-tea-bar.md
 - news/_posts/international-tea-day.md
 - news/_posts/lunar-new-year-at-yugen-tea-bar-2022.md
 - news/_posts/treat-yourself-mums.md
