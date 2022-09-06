@@ -1,5 +1,5 @@
 ---
-label: News & Events
+label: News & Events template
 hide_body: false
 fields:
 - name: layout
