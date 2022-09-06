@@ -13,7 +13,7 @@ fields:
   type: text
   config:
     required: true
-  label: title
+  label: Title
 - name: cover_image
   type: file
   config:
