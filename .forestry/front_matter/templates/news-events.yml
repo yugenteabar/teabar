@@ -32,5 +32,6 @@ fields:
   default: now
 pages:
 - news/_posts/lunar-new-year-at-yugen-tea-bar-2022.md
+- news/_posts/valentine-s-day-with-yugen-tea-bar-2022.md
 - news/_posts/yugen-tea-bar-opening-at-capitol-grand.md
 - news/_posts/yugen-tea-flight.md
