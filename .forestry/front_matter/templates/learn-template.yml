@@ -31,9 +31,4 @@ fields:
   hidden: true
   default: now
 pages:
-- learn/_posts/brewing-guide.md
-- learn/_posts/meet-the-potter-minhi-park.md
-- learn/_posts/meet-the-potter-minna-graham.md
 - learn/_posts/tea-101.md
-- learn/_posts/tea-region-fujian-province.md
-- learn/_posts/teaware-the-art-of-kanaami.md
