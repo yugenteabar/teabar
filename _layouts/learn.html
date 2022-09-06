@@ -7,10 +7,49 @@
 {% include nav.html %}
 
 <main class="container mx-auto pt-36 pb-8">
+  <h1 class="page-title mb-12">
+    Learn
+  </h1>
   <section>
-    <h1 class="page-title">
-      Learn
-    </h1>
+    {% assign firstpost = site.categories.learn | where:"priority","first" %}
+    {% assign secondpost = site.categories.learn | where:"priority","second" %}
+    <div class="flex justify-between">
+      {% for post in firstpost %}
+      <!-- first post  -->
+      <div class="tea-1-0-1 w-2/5">
+        <a href="{{post.url}}">
+          <img class="image-border-radius" src="{{post.cover_image}}" alt="{{post.title}}">
+        </a>
+        <h2 class="leading-lose p-3 lg:p-6">{{post.title}}</h2>
+      </div>
+      {% endfor %}
+
+      <!-- second post -->
+      {% for post in secondpost %}
+      <div class="brewing-guide w-2/5">
+        <a href="{{post.url}}">
+          <img class="image-border-radius" src="{{post.cover_image}}" alt="{{post.title}}">
+        </a>
+        <h2 class="leading-lose p-3 lg:p-6">{{post.title}}</h2>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!-- bottom posts -->
+    <div class="flex justify-between mt-10">
+      {% assign learnPosts = site.categories.learn  %}
+      {% for post in learnPosts %}
+        {% if post.priority %}
+        {% else %}
+        <div class="w-1/4 px-2 learn-single-post">
+          <a href="{{post.url}}">
+            <img class="image-border-radius" src="{{post.cover_image}}" alt="{{post.title}}">
+          </a>
+          <h3 class="leading-lose p-3 lg:p-6">{{post.title}}</h3>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
   </section>
 </main>
 

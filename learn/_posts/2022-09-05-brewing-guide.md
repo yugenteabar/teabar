@@ -3,7 +3,7 @@ layout: post
 posted_on: 2022-09-05 14:50:22 +0000
 title: Brewing Guide
 cover_image: "/uploads/brewing-guide.webp"
-
+priority: 'second'
 ---
 The taste of your simple cuppa is influenced by multiple factors such as the quality of the tea used, the leaf to water ratio, the water's type and temperature, and the brewing vessel style. Our team of tea experts carefully taste each tea selected for our shop and then brew the tea multiple times to discover the most appropriate brewing recipe. As a result, our tea has specific instructions for you to recreate the perfect cup of tea at home. Our instructions are on the back of the tea tin, or you can find them at our online shop in the tea description.
 

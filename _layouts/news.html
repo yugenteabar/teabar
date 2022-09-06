@@ -6,8 +6,30 @@
 
 {% include nav.html %}
 
-<main>
-  News page
+<main class="container mx-auto pt-36 pb-8">
+  <h1 class="page-title mb-12">
+    News & Events
+  </h1>
+  <div id="news-blog-section" class="sm:px-16 flex flex-wrap justify-between">
+    {% assign newsPosts = site.categories.news | sort: 'last_updated' | reverse %}
+    {% for post in newsPosts  %}
+    <div class="sm:w-1/4 news-single-post">
+      <a href="{{post.url}}">
+        <div 
+          class="aspect-5-3 mb-5 news-single-post-image rounded" 
+          style="background-image: url({{ post.cover_image }})"
+        ></div>
+        <!-- <img class="image-border-radius" src="{{post.cover_image}}" alt="{{post.title}}"> -->
+        <h3 class="leading-lose uppercase mb-3">
+          {{ post.title | truncate: 60 }}
+        </h3>
+        <div class="blog-list-article-description leading-normal spacing-loose">
+          {{ post.excerpt | truncate: 156 }}
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
 </main>
 
 {% include footer.html %}
