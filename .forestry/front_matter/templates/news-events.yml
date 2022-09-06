@@ -1,4 +1,32 @@
 ---
 label: News & Events
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: post
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: cover_image
+  type: file
+  config:
+    maxSize: 8
+  label: Cover image
+- name: posted_on
+  type: datetime
+  label: Posted On
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  hidden: true
+  default: now
