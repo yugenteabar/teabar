@@ -184,15 +184,13 @@ body nav #navigation {
 }
 
 
-body main {
-  min-height: 100vh;
-}
-
 .enter-site {
   position: absolute;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   bottom: 100px;
   transform: translate(-50%, -50%);
 }
@@ -204,12 +202,17 @@ body main {
   border: 1px solid white;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  width: 208px;
   transition: all .3s ease;
 }
 
 .enter-site a:hover {
   background-color: #fff;
   color: #000;
+}
+
+.enter-site img {
+  width: 150px;
 }
 
 .book-now {
@@ -307,22 +310,22 @@ img {
 /*     M  E  N  U     */
 /*  ----------------  */
 
-#menu section .title {
+#menu .title {
   font-weight: 500;
   font-size: 24px;
   line-height: 33px;
   letter-spacing: 0.08em;
 }
 
-#menu section .text,
-#menu section .text-link {
+#menu .text,
+#menu .text-link {
   font-weight: 500;
   font-size: 15px;
   line-height: 21px;
   letter-spacing: 0.08em;
 }
 
-#menu section .text p {
+#menu .text p {
   margin-top: 20px;
   font-size: 16px;
 }
@@ -693,11 +696,12 @@ h2, .h2 {
 
 
 
+
+
+
 /* body {
   background-color: #777;
 } */
-
-
 
 
 
@@ -708,6 +712,22 @@ h2, .h2 {
   .sm\:w-45per {
     width: 45%;
   }
+  .sm\:custom-section-height {
+    height: calc(100vh - 180px);
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:max-w-45per {
+    max-width: 45%;
+  }
+  .md\:w-45per {
+    width: 45%;
+  }
+  .md\:custom-section-height {
+    height: calc(100vh - 180px);
+  }
+
 }
 
 @media (min-width: 1480px) { 
@@ -722,10 +742,151 @@ h2, .h2 {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
+  /* animations for mobile */
+
+  .animate__fadeInRight,
+  .animate__fadeInLeft {
+    animation-name: fadeInUp;
+  }
+
   .container {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .nav-link {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+    margin-bottom: 6px;
+    margin-top: 4px;
+  }
+
+  .enter-site {
+    bottom: 50px;
+  }
+
+
+  /*     ABOUT     */
+
+  #about .page-title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  #about .left-image-section {
+    height: 400px;
+  }
+
+  #about .text p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  #about .page-subtitle, 
+  #about .text-end {
+    font-size: 14px;
+  }
+
+  /*    MENU     */
+
+  #menu .menu-section-image {
+    height: 250px;
+  }
+
+  #menu .text p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  #menu .title,
+  .menu-section-image-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+
+  /*    GALERY     */
+
+  #gallery section > div {
+    width: 100%;
+  }
+  #gallery section > div:first-child {
+    height: 250px;
+  }
+
+  #gallery .swiper-button-prev{
+    left: 0
+  }
+  #gallery .swiper-button-next{
+    right: 0
+  }
+
+  #gallery .swiper-button-prev,
+  #gallery .swiper-button-next {
+    width: 30px;
+  }
+
+
+  /*    LEARN      */
+  #learn main > section {
+    width: 100%;
+  }
+  .tea-1-0-1 h2, .brewing-guide h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  /*      NEWS & EVENTS      */
+  #news-blog-section .news-single-post:nth-child(3n + 1),
+  #news-blog-section .news-single-post:nth-child(3n + 2),
+  #news-blog-section .news-single-post:nth-child(3n + 3) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .news-single-post {
+    width: 100%;
+  }
+
+  #news-blog-section .news-single-post {
+    margin-bottom: 100px;
+  }
+
+
+  /*    CONTACT     */
+  #contact .contact-map {
+    width: 100%;
+    min-width: calc(100vw - 48px);
+    height: 420px;
+  }  
+
+  #contact .subscribe-btn {
+    width: 100%;
+    text-align: center;
+    border: 2px solid #fff;
+  }
+  
+  #contact .contact-label {
+    font-size: 16px;
+  }
+
+  #contact .contact-value a {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  #contact .subscribe-title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  #contact .subscribe-text {
+    font-size: 16px;
   }
 }
 

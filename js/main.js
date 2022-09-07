@@ -19,6 +19,10 @@ addEventListener('load', () => {
       document.body.style.right = `0px`
       document.body.style.left = `0px`
       document.body.style.position = 'fixed'
+      if(innerWidth < 500) {
+        document.querySelector('#bookNow').classList.add('hidden')
+        document.querySelector('#mobileLogo').classList.remove('hidden')
+      }
       TOGGLE_MENU = true
     }
   })
@@ -34,6 +38,10 @@ addEventListener('load', () => {
       document.body.style.top = ''
       document.body.style.right = ``
       document.body.style.left = ``
+      if(innerWidth < 500) {
+        document.querySelector('#bookNow').classList.remove('hidden')
+        document.querySelector('#mobileLogo').classList.add('hidden')
+      }
       window.scrollTo(0, parseInt(scrollY || '0') * -1)
       TOGGLE_MENU = false
     }
@@ -48,6 +56,10 @@ addEventListener('load', () => {
       const scrollY = document.body.style.top
       document.body.style.position = ''
       document.body.style.top = ''
+      if(innerWidth < 500) {
+        document.querySelector('#bookNow').classList.remove('hidden')
+        document.querySelector('#mobileLogo').classList.add('hidden')
+      }
       window.scrollTo(0, parseInt(scrollY || '0') * -1)
       TOGGLE_MENU = !TOGGLE_MENU
     }
@@ -58,11 +70,29 @@ addEventListener('load', () => {
     var swiper = new Swiper(".mySwiper", {
       loop: true,
       spaceBetween: 10,
-      slidesPerView: 6,
-      // freeMode: true,
-      // watchSlidesProgress: true,
+      slidesPerView: 2,
+      freeMode: true,
+      watchSlidesProgress: true,
       centeredSlides: true,
-      // touchRatio: 0.4,
+      touchRatio: 0.4,
+      breakpoints: {
+        576: {
+          slidesPerView: 2,
+          spaceBetween: 20
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 20
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 20
+        },
+        1440: {
+          slidesPerView: 6,
+          spaceBetween: 10
+        }
+      }
     })
     var swiper2 = new Swiper(".mySwiper2", {
       loop: true,
