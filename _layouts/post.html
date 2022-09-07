@@ -1,0 +1,27 @@
+{% assign current_page = 'single-article' %}
+{% assign page_title = {{page.title}} %}
+{% assign pageUrl = page.path | split: "/" %}
+
+{% include head.html %}
+
+{% include nav.html %}
+
+---
+layout: default
+---
+
+<main class="container mx-auto pt-32 pb-8">
+  <div class="sm:w-3/5 mx-auto">
+    <h1 class="blog-title mb-10">
+      {{ page.title }}
+    </h1>
+    <div class="article-content">
+      {{ page.content | markdownify }}
+    </div>
+  </div>
+</main>
+
+
+
+
+{% include footer.html %}

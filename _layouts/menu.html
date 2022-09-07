@@ -1,6 +1,5 @@
 {% assign current_page = 'menu' %}
 {% assign page_title = 'Menu' %}
-{% assign pageUrl = page.path | split: "/" %}
 
 {% include head.html %}
 
@@ -34,15 +33,15 @@
       </div>
     </div>
     <div class="w-45per sm:pl-8 relative">
-      <div class="menu-section-image image-border-radius relative">
-        <img src="/img/afternoon-tea.jpeg" alt="Day offering" class="absolute -z-1">
-        <div class="absolute bottom-10 left-12">
-          <a href="#" class="uppercase">
+      <a href="#" class="uppercase">
+        <div class="menu-section-image image-border-radius relative">
+          <img src="/img/afternoon-tea.jpeg" alt="Day offering" class="absolute -z-1">
+          <div class="absolute bottom-10 left-12 menu-section-image-text">
             Day Menu
             <div class="underline-animation"></div>
-          </a>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   </section>
   <section class="flex flex-col sm:flex-row justify-between items-center mb-12">
@@ -72,15 +71,15 @@
       </div>
     </div>
     <div class="w-45per sm:pl-8">
-      <div class="menu-section-image image-border-radius relative">
-        <img src="/img/After Dark Cocktail - Menu Page.jpg" alt="After Dark" class="absolute -z-1">
-        <div class="absolute bottom-10 right-12">
-          <a href="#" class="uppercase">
+      <a href="#" class="uppercase">
+        <div class="menu-section-image image-border-radius relative">
+          <img src="/img/After Dark Cocktail - Menu Page.jpg" alt="After Dark" class="absolute -z-1">
+          <div class="absolute bottom-10 right-12 menu-section-image-text">
             AFTER DARK MENU
             <div class="underline-animation"></div>
-          </a>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   </section>
 </main>
