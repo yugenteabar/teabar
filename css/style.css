@@ -324,10 +324,11 @@ img {
 
 #menu section .text p {
   margin-top: 20px;
+  font-size: 16px;
 }
 
 .menu-section-image {
-  height: 450px;
+  height: 420px;
 }
 
 .menu-section-image-text{
