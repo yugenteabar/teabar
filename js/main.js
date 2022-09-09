@@ -8,6 +8,7 @@ addEventListener('load', () => {
   const closeNavBtn = document.querySelector('#closeNavBtn')
   const menuBtn = document.querySelector('#menuBtn')
   const headerNav = document.querySelector('#headerNav')
+  const yugenCircles = document.querySelector('#yugenWaterMark')
 
   menuBtn.addEventListener('click', () => {
     if (!TOGGLE_MENU) {
@@ -111,6 +112,24 @@ addEventListener('load', () => {
     })
   }
 
+  let positions = []
+
+  addEventListener("mousemove", e => {
+    if(TOGGLE_MENU){
+      const x = -(e.pageX + yugenCircles.offsetLeft) / 50;
+      const y = -(e.pageY + yugenCircles.offsetTop) / 50;
+      positions.push({ x, y });
+      const averageCount = 10;
+      if (positions.length > averageCount)
+        positions.splice(0, 1);
+        
+      const current = positions.reduce((acc, e) => { acc.x += e.x; acc.y += e.y; return acc }, { x: 0, y: 0 });
+      current.x /= positions.length;
+      current.y /= positions.length;
+      
+      yugenCircles.style.transform = `translateX(${current.x}px) translateY(${current.y}px)`;
+    }
+  })
 
 
   window.onbeforeunload = () => {

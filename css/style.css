@@ -245,6 +245,14 @@ img {
   height: 100%;
 }
 
+.customFadeIn {
+  animation: customFadeIn ease-in-out forwards 1s;
+}
+
+.customFadeInCloseBtn {
+  animation: customFadeInCloseBtn ease-in-out forwards 1s;
+}
+
 /*  --------------------------  */
 /*    H  O  M  E  P  A  G  E    */
 /*  --------------------------  */
@@ -899,4 +907,25 @@ h2, .h2 {
 @keyframes load {
   0% { opacity: 0;}
   100% {opacity: 100%;}
+}
+
+@keyframes customFadeInCloseBtn {
+  0% {
+    opacity: 0;
+    width: 10px;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+  }
+}
+@keyframes customFadeIn{
+  0% {
+    opacity: 0;
+    width: 30px;
+  }
+  100% {
+    opacity: 1;
+    width: 100%;
+  }
 }
