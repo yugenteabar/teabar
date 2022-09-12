@@ -10,7 +10,7 @@ addEventListener('load', () => {
   const headerNav = document.querySelector('#headerNav')
   const yugenCircles = document.querySelector('#yugenWaterMark')
   const navList = document.querySelector('#navList')
-  
+
   menuBtn.addEventListener('click', () => {
     if (!TOGGLE_MENU) {
       nav.classList.remove('hidden')
@@ -21,7 +21,7 @@ addEventListener('load', () => {
       document.body.style.right = `0px`
       document.body.style.left = `0px`
       document.body.style.position = 'fixed'
-      if(innerWidth < 500) {
+      if (innerWidth < 500) {
         document.querySelector('#bookNow').classList.add('hidden')
         document.querySelector('#mobileLogo').classList.remove('hidden')
       }
@@ -40,7 +40,7 @@ addEventListener('load', () => {
       document.body.style.top = ''
       document.body.style.right = ``
       document.body.style.left = ``
-      if(innerWidth < 500) {
+      if (innerWidth < 500) {
         document.querySelector('#bookNow').classList.remove('hidden')
         document.querySelector('#mobileLogo').classList.add('hidden')
       }
@@ -58,7 +58,7 @@ addEventListener('load', () => {
       const scrollY = document.body.style.top
       document.body.style.position = ''
       document.body.style.top = ''
-      if(innerWidth < 500) {
+      if (innerWidth < 500) {
         document.querySelector('#bookNow').classList.remove('hidden')
         document.querySelector('#mobileLogo').classList.add('hidden')
       }
@@ -68,7 +68,7 @@ addEventListener('load', () => {
   })
 
 
-  if(document.querySelector('#gallery')){
+  if (document.querySelector('#gallery')) {
     var swiper = new Swiper(".mySwiper", {
       loop: true,
       spaceBetween: 10,
@@ -91,7 +91,7 @@ addEventListener('load', () => {
           spaceBetween: 20
         },
         1440: {
-          slidesPerView: 6,
+          slidesPerView: 5,
           spaceBetween: 10
         }
       }
@@ -119,20 +119,30 @@ addEventListener('load', () => {
     if (TOGGLE_MENU && innerWidth > 768) {
       const x = -(e.pageX + yugenCircles.offsetLeft) / 50;
       const y = -(e.pageY + yugenCircles.offsetTop) / 50;
-      positions.push({ x, y });
+      positions.push({
+        x,
+        y
+      });
       const averageCount = 10;
       if (positions.length > averageCount)
         positions.splice(0, 1);
-        
-      const current = positions.reduce((acc, e) => { acc.x += e.x; acc.y += e.y; return acc }, { x: 0, y: 0 });
+
+      const current = positions.reduce((acc, e) => {
+        acc.x += e.x;
+        acc.y += e.y;
+        return acc
+      }, {
+        x: 0,
+        y: 0
+      });
       current.x /= positions.length;
       current.y /= positions.length;
-      
+
       yugenCircles.style.transform = `translateX(${current.x}px) translateY(${current.y}px)`;
     }
   })
 
-  if(window.innerWidth < 1024) {
+  if (window.innerWidth < 1024) {
     navList.style.height = (window.innerHeight - 110) + 'px'
     navList.style.overflow = 'scroll'
   }
@@ -145,33 +155,45 @@ addEventListener('load', () => {
 
 
 
-  
-  
+
+
   // Loading page
 
   const landingTeaBar = document.getElementById('teaBar')
   const landingDining = document.getElementById('dining')
-  if(landingTeaBar && landingDining){
+  const loadingScreen = document.getElementById('loading-screen')
+  if (landingTeaBar && landingDining) {
+    let mobCurrPos = 0
+    let mobPrevPos = mobCurrPos
+    const sensitivityError = 5
+
+    // desktop teabar event
     landingTeaBar.addEventListener('wheel', (e) => {
-      if(e.wheelDelta < 0) {
+      if (e.wheelDelta < 0) {
         window.location.assign("/?a=hidden")
       }
     })
-    landingTeaBar.addEventListener('touchmove', (e) => {
-      if(e.wheelDelta < 0) {
-        window.location.assign("/?a=hidden")
-      }
-    })
+
+    // desktop restaurant event
     landingDining.addEventListener('wheel', (e) => {
-      if(e.wheelDelta >= 0) {
+      if (e.wheelDelta >= 0) {
         window.location.assign("https://restaurant-lime-xi.vercel.app/?a=hidden")
       }
     })
-    landingDining.addEventListener('touchmove', (e) => {
-      if(e.wheelDelta >= 0) {
-        window.location.assign("https://restaurant-lime-xi.vercel.app/?a=hidden")
+
+    // mobile restaurant event
+    loadingScreen.addEventListener('touchmove', (e) => {
+      mobCurrPos = e.changedTouches[0].pageY
+
+      if (Math.abs(mobCurrPos - mobPrevPos) > sensitivityError) {
+        if (mobCurrPos < mobPrevPos) {
+          window.location.assign("https://teabar.vercel.app/?a=hidden")
+        }
+        else {
+          window.location.assign("https://restaurant-lime-xi.vercel.app/?a=hidden")
+        }
+        mobPrevPos = mobCurrPos
       }
     })
   }
 })
-

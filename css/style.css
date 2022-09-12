@@ -384,11 +384,11 @@ img {
 }
 
 #gallery section > div {
-  width: 1180px;
+  width: 900px;
 }
 
 #gallery section > div:first-child {
-  height: 560px;
+  height: 600px;
 }
 
 #gallery .mySwiper2 {
