@@ -9,7 +9,8 @@ addEventListener('load', () => {
   const menuBtn = document.querySelector('#menuBtn')
   const headerNav = document.querySelector('#headerNav')
   const yugenCircles = document.querySelector('#yugenWaterMark')
-
+  const navList = document.querySelector('#navList')
+  
   menuBtn.addEventListener('click', () => {
     if (!TOGGLE_MENU) {
       nav.classList.remove('hidden')
@@ -115,7 +116,7 @@ addEventListener('load', () => {
   let positions = []
 
   addEventListener("mousemove", e => {
-    if(TOGGLE_MENU){
+    if (TOGGLE_MENU && innerWidth > 768) {
       const x = -(e.pageX + yugenCircles.offsetLeft) / 50;
       const y = -(e.pageY + yugenCircles.offsetTop) / 50;
       positions.push({ x, y });
@@ -131,8 +132,46 @@ addEventListener('load', () => {
     }
   })
 
+  if(window.innerWidth < 1024) {
+    navList.style.height = (window.innerHeight - 110) + 'px'
+    navList.style.overflow = 'scroll'
+  }
+
 
   window.onbeforeunload = () => {
     window.scrollTo(0, 0);
   }
+
+
+
+
+  
+  
+  // Loading page
+
+  const landingTeaBar = document.getElementById('teaBar')
+  const landingDining = document.getElementById('dining')
+  if(landingTeaBar && landingDining){
+    landingTeaBar.addEventListener('wheel', (e) => {
+      if(e.wheelDelta < 0) {
+        window.location.assign("/?a=hidden")
+      }
+    })
+    landingTeaBar.addEventListener('touchmove', (e) => {
+      if(e.wheelDelta < 0) {
+        window.location.assign("/?a=hidden")
+      }
+    })
+    landingDining.addEventListener('wheel', (e) => {
+      if(e.wheelDelta >= 0) {
+        window.location.assign("https://restaurant-lime-xi.vercel.app/?a=hidden")
+      }
+    })
+    landingDining.addEventListener('touchmove', (e) => {
+      if(e.wheelDelta >= 0) {
+        window.location.assign("https://restaurant-lime-xi.vercel.app/?a=hidden")
+      }
+    })
+  }
 })
+

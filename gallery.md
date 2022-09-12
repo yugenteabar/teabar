@@ -1,5 +1,5 @@
 ---
-layout: Gallery
+layout: gallery
 gallery_images:
 - "/uploads/assam-highball-min.jpg"
 - "/uploads/interior-retail-min.jpg"

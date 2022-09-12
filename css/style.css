@@ -156,18 +156,19 @@ body nav #navigation {
   animation: load ease-out forwards 0.5s;
 }
 
+
 .nav-link {
   font-family: 'Garnett', sans-serif;
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 400;
-  line-height: 50px;
+  line-height: 36px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   margin-bottom: 10px;
   margin-top: 10px;
   user-select: none;
   color: rgba(255,255,255,0.8);
-  transition: color 0.2s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 .nav-link:hover {
@@ -245,12 +246,29 @@ img {
   height: 100%;
 }
 
+#closeNavBtn:hover {
+  animation: customShake ease-in-out forwards 0.5s;
+}
+
 .customFadeIn {
   animation: customFadeIn ease-in-out forwards 1s;
 }
 
 .customFadeInCloseBtn {
-  animation: customFadeInCloseBtn ease-in-out forwards 1s;
+  animation: customFadeInCloseBtn ease-in-out forwards 1.5s;
+}
+
+#yugenWaterMark {
+  will-change: transform;
+}
+
+#verticalYugen svg path,
+#horizontalYugen svg path,
+#circleYugen svg path{
+  transition: all 0.3s ease-in-out;
+}
+#yugenWaterMark:hover svg path{
+  stroke:rgba(255,255,255,0.4)
 }
 
 /*  --------------------------  */
@@ -305,6 +323,7 @@ img {
 
 #about .text p{
   margin-top: 16px;
+  color: rgba(255,255,255,0.7);
 }
 
 #about .text-end {
@@ -421,20 +440,28 @@ img {
   font-size: 24px;
   line-height: 33px;
   letter-spacing: 0.08em;
+  text-transform: capitalize;
 }
 
-#contact .contact-label {
+#contact .contact-label,
+#contact .careers-title {
   font-weight: 500;
-  font-size: 24px;
-  line-height: 33px;
+  font-size: 20px;
+  line-height: 28px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
+#contact .careers-text {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.08em;
+}
+
 #contact .contact-value a {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
-  line-height: 33px;
+  line-height: 28px;
   letter-spacing: 0.08em;
   color: rgba(255,255,255,0.8);
   transition: color 0.3s ease-in-out;
@@ -453,8 +480,8 @@ img {
 
 #contact .subscribe-title {
   font-weight: 500;
-  font-size: 24px;
-  line-height: 33px;
+  font-size: 20px;
+  line-height: 28px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -659,6 +686,14 @@ img {
   background-color: rgba(0,0,0,.1);
 }
 
+#teaBar:hover .arrowUp{
+  animation: arrowUp ease-in-out infinite 1s;
+}
+
+#dining:hover .arrowDown {
+  animation: arrowDown ease-in-out infinite 1s;
+}
+
 .z-101 {
   z-index: 101;
 }
@@ -778,6 +813,9 @@ h2, .h2 {
   .enter-site {
     bottom: 50px;
   }
+  #horizontalYugen {
+    margin-bottom: -40px;
+  }
 
 
   /*     ABOUT     */
@@ -808,6 +846,7 @@ h2, .h2 {
   }
 
   #menu .text p {
+    font-weight: 400;
     font-size: 14px;
     font-weight: 400;
   }
@@ -874,27 +913,56 @@ h2, .h2 {
     height: 420px;
   }  
 
+  #contact .page-title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
   #contact .subscribe-btn {
     width: 100%;
     text-align: center;
     border: 2px solid #fff;
   }
-  
-  #contact .contact-label {
-    font-size: 16px;
-  }
 
+  #contact .careers-text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
   #contact .contact-value a {
     font-size: 16px;
-    line-height: 26px;
-  }
+    line-height: 22px;
+  } 
 
   #contact .subscribe-title {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 22px;
   }
+  
   #contact .subscribe-text {
     font-size: 16px;
+    line-height: 22px;
+  }
+  #contact .subscribe-btn {
+    font-size: 14px;
+  }
+
+  #verticalYugen svg,
+  #horizontalYugen svg,
+  #circleYugen svg {
+    width: 100%;
+  }
+
+  #horizontalYugen {
+    width: 185px;
+  }
+
+  #circleYugen {
+    width: 112px;
+  }
+
+  #verticalYugen {
+    width: 105px;
   }
 }
 
@@ -912,20 +980,54 @@ h2, .h2 {
 @keyframes customFadeInCloseBtn {
   0% {
     opacity: 0;
-    width: 10px;
   }
   100% {
     opacity: 1;
-    width: 100%;
   }
 }
 @keyframes customFadeIn{
   0% {
     opacity: 0;
-    width: 30px;
   }
   100% {
     opacity: 1;
-    width: 100%;
+  }
+}
+
+@keyframes customShake {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes arrowUp {
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+@keyframes arrowDown {
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translate(0px);
   }
 }
