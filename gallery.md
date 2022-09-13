@@ -3,7 +3,6 @@ layout: gallery
 gallery_images:
 - "/uploads/assam-highball-min.jpg"
 - "/uploads/interior-retail-min.jpg"
-- "/uploads/pastry-birds-eye-of-window-display-min.jpg"
 - "/uploads/outside-night-min.jpg"
 - "/uploads/outside-of-venue-min.jpg"
 - "/uploads/thibaut-pouring-tea-2-min.jpg"
@@ -13,7 +12,6 @@ gallery_images:
 - "/uploads/tea-and-retail-bags-min.jpg"
 - "/uploads/yugen-after-dark-min.jpg"
 - "/uploads/pouring-tea-min.jpg"
-- "/uploads/thibaut-pouring-tea-min.jpg"
 - "/uploads/tea-steam-2-min.jpg"
 - "/uploads/tea-_-plant-min.jpg"
 - "/uploads/yugen-high-tea-min.jpg"
