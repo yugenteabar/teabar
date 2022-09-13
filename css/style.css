@@ -964,6 +964,14 @@ h2, .h2 {
   #verticalYugen {
     width: 105px;
   }
+
+  #teaBar .arrowUp{
+    animation: arrowUp ease-in-out infinite 1s;
+  }
+  
+  #dining .arrowDown {
+    animation: arrowDown ease-in-out infinite 1s;
+  }
 }
 
 @keyframes loadUnderline {
