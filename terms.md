@@ -1,7 +1,11 @@
 ---
+
 layout: terms
+title: Privacy Policy
+subtitle: LK Hospitality Group
 
 ---
+
 #### Our privacy commitment
 
 LK Hospitality Pty Ltd (‘we’, ‘us’, ‘our’ and ‘LK Hospitality’) is committed to protecting the privacy of your personal information. This policy explains how LK Hospitality manages the personal information that we collect, use and disclose and how to contact us if you have any further queries about our management of your personal information. This policy does not cover personal information collected or held by LK Hospitality or any of its related bodies corporate (as applicable) about its employees.
