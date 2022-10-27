@@ -161,7 +161,7 @@ addEventListener('load', () => {
 
   const landingTeaBar = document.getElementById('teaBar')
   const landingDining = document.getElementById('dining')
-  const loadingScreen = document.getElementById('loading-screen')
+  // const loadingScreen = document.getElementById('loading-screen')
   if (landingTeaBar && landingDining) {
     let mobCurrPos = 0
     let mobPrevPos = mobCurrPos
@@ -182,18 +182,18 @@ addEventListener('load', () => {
     })
 
     // mobile restaurant event
-    loadingScreen.addEventListener('touchmove', (e) => {
-      mobCurrPos = e.changedTouches[0].pageY
+    // loadingScreen.addEventListener('touchmove', (e) => {
+    //   mobCurrPos = e.changedTouches[0].pageY
 
-      if (Math.abs(mobCurrPos - mobPrevPos) > sensitivityError) {
-        if (mobCurrPos < mobPrevPos) {
-          window.location.assign("https://teabar.vercel.app/?a=hidden")
-        }
-        else {
-          window.location.assign("https://restaurant-lime-xi.vercel.app/?a=hidden")
-        }
-        mobPrevPos = mobCurrPos
-      }
-    })
+    //   if (Math.abs(mobCurrPos - mobPrevPos) > sensitivityError) {
+    //     if (mobCurrPos < mobPrevPos) {
+    //       window.location.assign("https://teabar.vercel.app/?a=hidden")
+    //     }
+    //     else {
+    //       window.location.assign("https://restaurant-lime-xi.vercel.app/?a=hidden")
+    //     }
+    //     mobPrevPos = mobCurrPos
+    //   }
+    // })
   }
 })
