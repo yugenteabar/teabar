@@ -46,15 +46,5 @@ fields:
     max: 
     labelField: 
   label: Menu_sections
-- name: open_hours_days
-  type: text
-  config:
-    required: false
-  label: Open Hours Days
-- name: open_hours_time
-  type: text
-  config:
-    required: false
-  label: Open Hours Time
 pages:
 - menu.md
