@@ -13,6 +13,6 @@ text: |-
 
   Whether you’re a tea aficionado, or simply someone that loves a spot of tea and cake, we have something for everyone.
 quote_text: 'TO WANDER ON IN A HUGE FOREST WITHOUT THOUGHT OF RETURN. '
-quote_by: " ZEAMI MOTOKIYO "
+quote_by: 'ZEAMI MOTOKIYO '
 
 ---
