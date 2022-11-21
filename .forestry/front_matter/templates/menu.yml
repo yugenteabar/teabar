@@ -17,6 +17,11 @@ fields:
     config:
       required: false
     label: Section Title
+  - name: section_image
+    type: file
+    config:
+      maxSize: 64
+    label: Section Image
   - name: section_text
     type: textarea
     default: ''
