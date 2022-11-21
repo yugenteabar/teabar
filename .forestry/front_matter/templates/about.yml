@@ -9,16 +9,16 @@ fields:
   label: layout
   hidden: true
   default: about
-- name: main_image
-  type: file
-  config:
-    maxSize: 64
-  label: Main Image
 - name: title
   type: text
   config:
     required: false
   label: Title
+- name: main_image
+  type: file
+  config:
+    maxSize: 64
+  label: Main Image
 - name: subtitle
   type: textarea
   default: ''
