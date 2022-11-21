@@ -1,4 +1,43 @@
 ---
 label: Menu
 hide_body: true
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: menu
+- name: menu_sections
+  type: field_group_list
+  fields:
+  - name: section_title
+    type: text
+    config:
+      required: false
+    label: Section Title
+  - name: section_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Section Text
+  - name: section_button_text
+    type: text
+    config:
+      required: false
+    label: Section Button Text
+  - name: section_pdf_file
+    type: file
+    config:
+      maxSize: 64
+    label: Section PDF File
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Menu_sections
