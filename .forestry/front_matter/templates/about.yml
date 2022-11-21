@@ -1,4 +1,44 @@
 ---
 label: About
 hide_body: true
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: about
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: subtitle
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Subtitle
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text
+- name: quote_text
+  type: text
+  config:
+    required: false
+  label: Quote text
+- name: quote_by
+  type: text
+  config:
+    required: false
+  label: Quote By
