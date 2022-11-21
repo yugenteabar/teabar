@@ -36,11 +36,11 @@ fields:
     config:
       required: false
     label: Section Button Text
-  - name: section_pdf_file
-    type: file
+  - name: section_menu_url
+    type: text
     config:
-      maxSize: 64
-    label: Section PDF File
+      required: false
+    label: Section Menu URL
   config:
     min: 
     max: 
