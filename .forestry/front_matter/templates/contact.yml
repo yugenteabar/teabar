@@ -1,4 +1,63 @@
 ---
 label: Contact
 hide_body: true
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: contact
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: phone
+  type: field_group
+  config: {}
+  fields:
+  - name: phone_number
+    type: text
+    config:
+      required: false
+    label: Phone Number
+    description: 'Example: 03 8080 8080 or (03) 8080 8080'
+  - name: phone_number_formated
+    type: number
+    label: Phone Number Formated
+    description: 'Example: 0380808080'
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  label: Phone
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
+- name: careers_title
+  type: text
+  config:
+    required: false
+  label: Careers Title
+- name: careers_text
+  type: text
+  config:
+    required: false
+  label: Careers Text
+  description: "(without email address)"
+- name: subscribe_button_text
+  type: text
+  config:
+    required: false
+  label: Subscribe Button Text
+- name: subscribe_button_url
+  type: text
+  config:
+    required: false
+  label: Subscribe Button URL
