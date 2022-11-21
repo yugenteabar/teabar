@@ -9,3 +9,5 @@ fields:
   label: layout
   hidden: true
   default: learn
+pages:
+- learn.md
