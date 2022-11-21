@@ -56,5 +56,15 @@ fields:
   config:
     required: false
   label: Careers Email
+- name: open_hours_days
+  type: text
+  config:
+    required: false
+  label: Open Hours Days
+- name: open_hours_time
+  type: text
+  config:
+    required: false
+  label: Open Hours Time
 pages:
 - contact.md
