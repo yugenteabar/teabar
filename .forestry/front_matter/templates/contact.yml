@@ -51,13 +51,8 @@ fields:
     required: false
   label: Careers Text
   description: "(without email address)"
-- name: subscribe_button_text
+- name: careers_email
   type: text
   config:
     required: false
-  label: Subscribe Button Text
-- name: subscribe_button_url
-  type: text
-  config:
-    required: false
-  label: Subscribe Button URL
+  label: Careers Email
