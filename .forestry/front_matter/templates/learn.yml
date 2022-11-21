@@ -9,5 +9,10 @@ fields:
   label: layout
   hidden: true
   default: learn
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 pages:
 - learn.md

@@ -20,5 +20,6 @@ gallery_images:
 - "/uploads/pastry-display-in-window-min.jpg"
 - "/uploads/window-from-outside-min.jpg"
 - "/uploads/thibaut-at-bar-min.jpg"
+title: Gallery page
 
 ---
