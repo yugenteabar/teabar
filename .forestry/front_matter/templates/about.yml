@@ -42,3 +42,5 @@ fields:
   config:
     required: false
   label: Quote By
+pages:
+- about.md
