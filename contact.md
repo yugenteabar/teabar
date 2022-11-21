@@ -9,5 +9,7 @@ careers_email: info@yugenteabar.com.au
 careers_title: Careers
 careers_text: 'If you are interested in joining our team, please email your resume
   to:'
+open_hours_days: 'Wednesday to Sunday:'
+open_hours_time: 12pm - 5pm
 
 ---
