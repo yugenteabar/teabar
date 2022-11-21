@@ -56,3 +56,5 @@ fields:
   config:
     required: false
   label: Careers Email
+pages:
+- contact.md
