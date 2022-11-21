@@ -9,5 +9,10 @@ fields:
   label: layout
   hidden: true
   default: news
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 pages:
 - news.md
