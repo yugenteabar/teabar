@@ -8,40 +8,24 @@
 
 <main class="container mx-auto pt-32 pb-8 min-h-screen flex flex-col md:flex-row justify-between">
   <div class="left-image-section md:w-45per md:custom-section-height overflow-hidden">
-    <div class="w-full h-full animate__animated animate__fadeIn" style="background-image: url('/img//Pouring\ tea\ -\ About\ Page.jpg');">
-      <img class="hidden" src="/img/Pouring tea - About Page.jpg" alt="about">
+    <div class="w-full h-full animate__animated animate__fadeIn" style="background-image: url({{ page.main_image }})">
+      <img class="hidden" src="{{ page.main_image }}" alt="about">
     </div>
   </div>
   <div class="md:w-45per md:custom-section-height md:overflow-y-scroll pb-16 md:pb-0">
     <div class="pt-12 md:px-8">
-      <h1 class="page-title animate__animated animate__fadeInUp">About</h1>
+      <h1 class="page-title animate__animated animate__fadeInUp">
+        {{ page.title }}
+      </h1>
       <h2 class="page-subtitle mt-8 animate__animated animate__fadeInUp">
-        Step into a realm of discovery and beauty - where the senses are engaged, and rituals shared. Yugen Tea Bar takes
-        an elevated approach to the common drink enjoyed by many and we invite you to come and share it with us.
+        {{ page.subtitle }}
       </h2>
       <div class="text mt-10 md:mt-16 animate__animated animate__fadeInUp">
-        <p>
-          Yugen Tea Bar offers some of the world’s finest loose leaf teas, and their stories, curated with
-          inquisitiveness
-          and respect. Teas are paired with impossibly beautiful patisserie which tantalisingly changes with the season.
-          And it’s all presented with effortless, relaxed humility.
-        </p>
-        <p>
-          We are located on the ground floor of Capitol Grand, a hive of culture and culinary delights in the heart of
-          South Yarra, on the corner of Toorak Road and Chapel Street.
-        </p>
-        <p>
-          Yugen Tea Bar melds the talents of Melbourne-born Executive Pastry Chef John Demetrios, globe-trotting Tea
-          Sommelier Thibaut Chuzeville and Culinary Director, Stephen Nairn.
-        </p>
-        <p>
-          Whether you’re a tea aficionado, or simply someone that loves a spot of tea and cake, we have something for
-          everyone.
-        </p>
+        {{ page.text | markdownify}}
       </div>
       <div class="text-end mt-20 text-center animate__animated animate__fadeInUp animate__delay-1s">
-        TO WANDER ON IN A HUGE FOREST WITHOUT THOUGHT OF RETURN. <br>
-        - ZEAMI MOTOKIYO
+        {{ page.quote_text }} <br>
+        - {{ page.quote_by }}
       </div>
     </div>
   </div>

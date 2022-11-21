@@ -8,7 +8,7 @@
 
 <main class="container mx-auto pt-40 pb-28 flex flex-col md:flex-row items-center justify-between">
   <div class="md:w-3/5">
-    <h1 class="page-title mb-12 animate__animated animate__fadeInUp">Contact us</h1>
+    <h1 class="page-title mb-12 animate__animated animate__fadeInUp">{{ page.title }}</h1>
 
     <div class="flex flex-col md:flex-row items-start justify-between lg:pt-8  md:pr-24">
       <!-- contact info -->
@@ -18,8 +18,8 @@
             Phone:
           </div>
           <div class="contact-value">
-            <a href="tel:0380808080">
-              03 8080 8080
+            <a href="tel:{{ page.phone.phone_number_formated }}">
+              {{ page.phone.phone_number }}
               <div class="underline-animation"></div>
             </a>
           </div>
@@ -29,8 +29,8 @@
             EMAIL:
           </div>
           <div class="contact-value">
-            <a href="mailto:info@yugenteabar.com.au">
-              info@yugenteabar.com.au
+            <a href="mailto:{{ page.email }}">
+              {{ page.email }}
               <div class="underline-animation"></div>
             </a>
           </div>
@@ -58,7 +58,7 @@
           Open Hours
         </div>
         <div class="open-hours-value">
-          Wednesday to Sunday: <br class="hidden md:block"> 12pm - 5pm
+          {{ page.open_hours_days }} <br class="hidden md:block"> {{ page.open_hours_time }}
         </div>
       </div>
     </div>
@@ -66,14 +66,14 @@
     <!-- Careers -->
     <div class="mt-8 sm:pr-20">
       <h3 class="careers-title animate__animated animate__fadeInUp animate__delay-1s">
-        Careers
+        {{ page.careers_title }}
       </h3>
       <h5 class="careers-text animate__animated animate__fadeInUp animate__delay-1s">
-        If you are interested in joining our team, please email your resume to:
+        {{ page.careers_text }}
       </h5>
       <div class="contact-value flex animate__animated animate__fadeInUp animate__delay-1s">
-        <a href="mailto:info@yugenteabar.com.au">
-          info@yugenteabar.com.au
+        <a href="mailto:{{ page.careers_email }}">
+          {{ page.careers_email }}
           <div class="underline-animation"></div>
         </a>
       </div>
