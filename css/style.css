@@ -696,6 +696,10 @@ img {
   background-position: center 80%;
 } */
 
+header.site-header[role='banner'] {
+  opacity: 0;
+}
+
 #teaBar .custom-center,
 #dining .custom-center {
   width: 100%;
