@@ -41,6 +41,12 @@ fields:
     config:
       required: false
     label: Section Menu URL
+  - name: menu_file
+    type: file
+    config:
+      maxSize: 64
+    label: Menu File
+    description: Upload DAY MENU PDF file here.
   config:
     min: 
     max: 
