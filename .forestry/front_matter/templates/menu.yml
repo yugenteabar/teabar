@@ -41,6 +41,7 @@ fields:
     config:
       required: false
     label: Section Menu URL
+    hidden: true
   - name: menu_file
     type: file
     config:
