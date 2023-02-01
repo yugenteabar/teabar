@@ -11,7 +11,7 @@ menu_sections:
   section_image: "/uploads/afternoon-tea.jpeg"
   section_button_text: Day Menu
   section_menu_url: https://cdn.flipsnack.com/widget/v2/widget.html?hash=zuiykm9zhm
-  menu_file: "/uploads/yugen-tea-bar-day-menu-december-22.pdf"
+  menu_file: "/uploads/yugen-tea-bar-day-menu-february-2023.pdf"
 title: ''
 
 ---
