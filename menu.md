@@ -1,7 +1,7 @@
 ---
 layout: menu
 menu_sections:
-- section_title: Day Offering
+- section_title: Yugen Tea Bar
   section_text: |-
     Yugen's afternoon high tea is inspired by the classic English afternoon tea, with some bold twists and turns. Let our tea sommeliers and pastry artists craft a Yugen moment for you to remember.
 
