@@ -1,11 +1,11 @@
 ---
 layout: post
-posted_on: 2022-09-06 10:39:02 +0000
+posted_on: 2022-09-06T10:39:02.000+00:00
 title: International Tea Day
 cover_image: "/uploads/international-tea-day-cover.webp"
 
 ---
-**International Tea Day**
+International Tea Day
 
 In celebration of International Tea Day, Yugen Tea Bar is hosting a collection of workshops that explore the world’s most-consumed drink (after water). But one day just isn't enough to showcase this incredible beverage so we will be celebrating the culture of tea all week long. From Wednesday the 18th to Saturday the 21st of May, we will be hosting four unique events to raise awareness and showcase how tea can be consumed and paired in your everyday life. Not just your morning cuppa.
 
