@@ -2,7 +2,7 @@
 layout: post
 posted_on: 2022-09-06T10:38:14.000+00:00
 title: Treat yourself mums! Mother's Day 2023
-cover_image: "/uploads/treat-yourself-mums-cover.webp"
+cover_image: "/uploads/afternoon-tea.jpeg"
 
 ---
 It can be hard to find the perfect gift for mum. But believe us when we say an afternoon tea with Champagne, high-quality tarts and specially curated loose-leaf teas is exactly what she will love. Send her off to afternoon tea with her friends or make it a gift for yourself too and take her along yourself. At $130pp, with a glass of Champagne & a hot tea selected by our tea sommelier expert.
