@@ -1,15 +1,13 @@
 ---
 layout: post
-posted_on: 2022-09-06 10:38:14 +0000
-title: Treat yourself Mums
+posted_on: 2022-09-06T10:38:14.000+00:00
+title: Treat yourself mums!
 cover_image: "/uploads/treat-yourself-mums-cover.webp"
 
 ---
-It can be hard to find the perfect gift for mum.
+It can be hard to find the perfect gift for mum. But believe us when we say an afternoon tea with Champagne, high-quality tarts and specially curated loose-leaf teas is exactly what she will love. Send her off to afternoon tea with her friends or make it a gift for yourself too and take her along yourself. At $130pp, with a glass of Champagne & a hot tea selected by our tea sommelier expert.
 
-But believe us when we say, an afternoon tea with botomless sparkling , high quality tarts and specially curated loose-leaf teas is exactly what she will love. After all the years of burnt toast, cold english breakfast tea and necklaces made out of pasta, an afternoon of true indulgence is the perfect gift.
-
-Send her off to afternoon tea with her friends or make it a gift for yourself to and take her along yourself. At $120 a head, choice of either bottomless sparkling rose (+$30) or bottumless cold brew.
+A pre-organised chocolate Bonbon Box & special note from mum can also be added on; email [info@yugenteabar.com.au](mailto:info@yugenteabar.com.au "mailto:info@yugenteabar.com.au") with your personalised message. There is no better way to thank her for all the ways that she has made your life special.
 
 Treat yourself Mums - Afternoon Tea Menu
 
