@@ -1,7 +1,7 @@
 ---
 layout: post
 posted_on: 2023-03-23 23:26:54 +0000
-title: 'Good Friday Afternoon Tea '
+title: Good Friday Afternoon Tea 2023
 cover_image: "/uploads/0c26aa54-8e3f-48e6-91a3-60c8d83978fe-2.jpg"
 
 ---
