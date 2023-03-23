@@ -1,6 +1,6 @@
 ---
 layout: post
-posted_on: 2022-09-06 10:41:49 +0000
+posted_on: 2022-09-06T10:41:49.000+00:00
 title: Bastille Day Celebration at Yugen Tea Bar
 cover_image: "/uploads/bastille-day-celebration-at-yugen-tea-bar.webp"
 
