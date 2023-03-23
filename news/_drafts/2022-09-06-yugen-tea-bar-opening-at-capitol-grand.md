@@ -1,6 +1,6 @@
 ---
 layout: post
-posted_on: 2022-09-06 10:31:06 +0000
+posted_on: 2022-09-06T10:31:06.000+00:00
 title: Yugen Tea Bar Opening at Capitol Grand
 cover_image: "/uploads/yugen-tea-bar-opening-at-capitol-grand.jpeg"
 
