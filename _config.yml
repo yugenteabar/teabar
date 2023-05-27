@@ -4,6 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl:
 permalink: "/:path/"
+include: ['_pages']
 defaults:
   - scope:
       path: ""

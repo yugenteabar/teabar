@@ -1,10 +1,11 @@
 ---
 layout: post
-posted_on: 2023-03-15 23:47:00 +0000
+posted_on: '2023-03-15 23:47:00 +0000'
 title: Treat yourself mums! Mother's Day 2023
-cover_image: "/uploads/afternoon-tea.jpeg"
-
+cover_image: /uploads/afternoon-tea.jpeg
+_template: news_events
 ---
+
 It can be hard to find the perfect gift for mum. But believe us when we say an afternoon tea with Champagne, high-quality tarts and specially curated loose-leaf teas is exactly what she will love. Send her off to afternoon tea with her friends or make it a gift for yourself too and take her along yourself. At $130pp, with a glass of Champagne & a hot tea selected by our tea sommelier expert.
 
 A pre-organised chocolate Bonbon Box & special note from mum can also be added on; email [info@yugenteabar.com.au](mailto:info@yugenteabar.com.au) with your personalised message. There is no better way to thank her for all the ways that she has made your life special.
