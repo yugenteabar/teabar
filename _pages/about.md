@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About t
+title: About
 permalink: /about/
 subtitle: >-
   Step into a realm of discovery and beauty - where the senses are engaged, and
@@ -30,6 +30,7 @@ quote_by: 'ZEAMI MOTOKIYO '
 main_image: /assets/images/Pouring tea - About Page.jpg
 _template: about
 ---
+
 
 
 
