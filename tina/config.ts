@@ -5,6 +5,8 @@ import { galleryFields } from "./templates";
 import { indexFields } from "./templates";
 import { learn_templateFields } from "./templates";
 import { menuFields } from "./templates";
+import { learnFields } from "./templates";
+import { newsFields } from "./templates";
 import { news___events_templateFields } from "./templates";
 
 // Your hosting provider likely exposes this as an environment variable
@@ -56,6 +58,16 @@ export default defineConfig({
             name: 'menu',
             label: 'Menu page',
             fields: menuFields(),
+          },
+          {
+            name: 'learn',
+            label: 'Learn page',
+            fields: learnFields(),
+          },
+          {
+            name: 'news',
+            label: 'News page',
+            fields: newsFields(),
           },
         ]
       },

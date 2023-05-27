@@ -183,6 +183,24 @@ export function learn_templateFields() {
     },
   ] as TinaField[];
 }
+export function learnFields() {
+  return [
+    {
+      type: "string",
+      name: "layout",
+      label: "layout",
+      ui: {
+        component: () => null
+      }
+    },
+    {
+      type: "string",
+      name: "title",
+      label: "Title",
+    },
+    
+  ] as TinaField[];
+}
 export function menuFields() {
   return [
     {
@@ -275,6 +293,23 @@ export function news___events_templateFields() {
       ui: {
         component: () => null
       }
+    },
+  ] as TinaField[];
+}
+export function newsFields() {
+  return [
+    {
+      type: "string",
+      name: "layout",
+      label: "layout",
+      ui: {
+        component: () => null
+      }
+    },
+    {
+      type: "string",
+      name: "title",
+      label: "Title",
     },
   ] as TinaField[];
 }
