@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: About t
 permalink: /about/
 subtitle: >-
   Step into a realm of discovery and beauty - where the senses are engaged, and
@@ -27,9 +27,10 @@ text: >-
   and cake, we have something for everyone.
 quote_text: 'TO WANDER ON IN A HUGE FOREST WITHOUT THOUGHT OF RETURN. '
 quote_by: 'ZEAMI MOTOKIYO '
-main_image: /uploads/pouring-tea-about-page.jpg
+main_image: /assets/images/Pouring tea - About Page.jpg
 _template: about
 ---
+
 
 
 
