@@ -35,9 +35,9 @@ omakase_popup_logo: '/assets/images/Nidaime Logo-White.png'
 omakase_popup_title: OMAKASE
 popup_terms_title: Nidaime Omakase Terms & Conditions
 popup_terms_text: >-
-  Yugen Nidaime Omakase offer two sessions each night:
-  1st session: begins at 6pm sharp till 8pm
-  2nd session: begins at 8.30pm sharp till 10:30pm
+  Yugen Nidaime Omakase offer two sessions each night: <br />  
+  1st session: begins at 6pm sharp till 8pm <br />  
+  2nd session: begins at 8.30pm sharp till 10:30pm <br />  
   For the best dining experience, please ensure all guests arrive at 10 minutes before your sitting. Please be mindful of dining time as it affects other diners. Unfortunately, our Chef’s cannot accommodate for late guests and will not supply missed dishes.
 
 
@@ -46,10 +46,10 @@ popup_terms_text: >-
 
 
 
-  Cancellation policy and no shows:
-  Cancellation before 48 hours of your booking will be permitted for a no cancellation fee.
-  No shows or cancellations less than 48 hours in advance will be charged a $175 cancellation fee per person.
-  Please note a 15% surcharge apply on Sunday and public holidays.
+  Cancellation policy and no shows: <br />  
+  Cancellation before 48 hours of your booking will be permitted for a no cancellation fee. <br />  
+  No shows or cancellations less than 48 hours in advance will be charged a $175 cancellation fee per person. <br />  
+  Please note a 15% surcharge apply on Sunday and public holidays. <br />  
   Credit card payments will incur a processing fee Mastercard / Visa 1.2% - Amex/ Other 1.6%.
 
 
