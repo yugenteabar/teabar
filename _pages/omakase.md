@@ -2,7 +2,7 @@
 layout: omakase
 permalink: /omakase/
 main_image: '/assets/images/teabar omakase 1.jpg'
-nidaime_logo: '/assets/images/Nidaime Logo-White 1.png'
+nidaime_logo: '/assets/images/Nidaime Logo-White.png'
 title: OMAKASE
 main_text: >-
   Experience the enigmatic world of Nidaime Omakase.
@@ -29,6 +29,28 @@ button_text: BOOK  NIDAIME OMAKASE
 button_link: https://www.opentable.com.au/restref/client/?restref=158744&lang=en-AU&ot_source=Restaurant%20website&corrid=8edbade4-ea84-4e05-8fb8-4d552deb61cb
 terms_btn_text: OMAKASE TERMS & CONDITIONS
 terms_btn_link: https://www.opentable.com.au/restref/client/?restref=158744&lang=en-AU&ot_source=Restaurant%20website&corrid=8edbade4-ea84-4e05-8fb8-4d552deb61cb
+
+
+omakase_popup_logo: '/assets/images/Nidaime Logo-White.png'
+omakase_popup_title: OMAKASE
+popup_terms_title: Nidaime Omakase Terms & Conditions
+popup_terms_text: >-
+  Yugen Nidaime Omakase offer two sessions each night:
+  1st session: begins at 6pm sharp till 8pm
+  2nd session: begins at 8.30pm sharp till 10:30pm
+  For the best dining experience, please ensure all guests arrive at 10 minutes before your sitting. Please be mindful of dining time as it affects other diners. Unfortunately, our Chef’s cannot accommodate for late guests and will not supply missed dishes.
+
+
+
+  Our Omakase is dependent on seasonal produce and changes daily. For this reason, we are unable to cater to food allergies and/or dietary restrictions. This is also due to the potential traces of allergens in the supplied ingredients and in the work environment. We are unable to cater for vegetarians, vegans, no raw seafood, shellfish allergies, gluten free, soy and coeliac.
+
+
+
+  Cancellation policy and no shows:
+  Cancellation before 48 hours of your booking will be permitted for a no cancellation fee.
+  No shows or cancellations less than 48 hours in advance will be charged a $175 cancellation fee per person.
+  Please note a 15% surcharge apply on Sunday and public holidays.
+  Credit card payments will incur a processing fee Mastercard / Visa 1.2% - Amex/ Other 1.6%.
 
 
 _template: omakase

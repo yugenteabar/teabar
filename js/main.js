@@ -227,17 +227,56 @@ addEventListener('load', () => {
 
   function acceptTerms(checkbox) {
     const bookOverlay = document.querySelector('.book-overlay')
-    const termsWarning = document.querySelector('.terms-warning')
 
-    console.log(bookOverlay)
     if(checkbox.checked) {
       bookOverlay.classList.add('hide-behind')
-      termsWarning.classList.add('opacity-0')
     }
     else {
       bookOverlay.classList.remove('hide-behind')
-      termsWarning.classList.remove('opacity-0')
     }
+  }
+  
+
+  if(document.querySelector('.terms-text input') && document.querySelector('.terms-text-open-dialog')) {
+    const omakaseBox = document.querySelector('.nidaime-terms-container')
+
+    openCloseTermsModel()
+
+    if(omakaseBox) {
+      const yugenTermsCheckbox = omakaseBox.querySelector('.yugen-terms-container .terms-text input')
+      yugenTermsCheckbox.addEventListener('change', () => acceptTerms(omakaseBox));
+    }
+  }
+
+  function openCloseTermsModel() {
+    const termsPopup = document.querySelector('#terms-popup')
+    const termsTextOpenDialog = document.querySelector('.terms-text-open-dialog')
+
+    console.log('test', termsPopup)
+    console.log('termsTextOpenDialog', termsTextOpenDialog)
+    const closeTermsPopup = termsPopup.querySelector('.close-terms-popup')
+
+    termsPopup.addEventListener('click', (e) => {
+      if(e.target === termsPopup) {
+        termsPopup.classList.add('opacity-0')
+        setTimeout(() => {
+          termsPopup.classList.add('hidden')
+        }, 300)
+      }
+    })  
+
+    termsTextOpenDialog.addEventListener('click', () => {
+      console.log('termsTextOpenDialog')
+      termsPopup.classList.remove('hidden')
+      termsPopup.classList.remove('opacity-0')
+      termsPopup.classList.remove('hidden')
+    })
+    closeTermsPopup.addEventListener('click', () => {
+      termsPopup.classList.add('opacity-0')
+      setTimeout(() => {
+        termsPopup.classList.add('hidden')
+      }, 300)
+    })
   }
 
 })

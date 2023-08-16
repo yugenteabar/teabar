@@ -851,14 +851,10 @@ h2, .h2 {
 
 #omakase .nidaime-logo {
   width: 340px;
-  height: 60px;
-  /* margin-left: -32px; */
-  margin-bottom: 12px;
+  margin-bottom: -40px;
+  margin-top: -40px;
 }
 
-#omakase .right-image-section {
-  /* border-radius: 40px; */
-}
 #omakase .right-image-section>div{
   background-position: center;
   background-repeat: no-repeat;
@@ -888,6 +884,114 @@ h2, .h2 {
   font-style: italic;
   font-weight: 500;
   line-height: normal;
+}
+#omakase .text p {
+  margin-top: 12px;
+}
+
+#omakase .terms-text-open-dialog {
+  color: #FFF;
+  font-family: Garnett Medium;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+}
+#omakase .book-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.1s ease-in-out;
+}
+#omakase .book-overlay.hide-behind {
+  background-color: rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+
+
+#terms-popup {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.1s ease-in-out;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: customFadeIn 0.3s ease-in-out;
+}
+#terms-popup.hidden {
+  display: none;
+}
+#terms-popup.opacity-0 {
+  transition: all 0.3s ease-in-out;
+}
+
+/* #omakase .terms-text p{
+  font-size: 10px;
+} */
+#omakase .terms-popup-container {
+  padding: 60px 60px 60px 100px;
+  background-color: rgba(0, 0, 0, 1);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid rgba(225,225,225, 0.6);
+  max-width: 1060px;
+  /* opacity: 0; */
+}
+#omakase .terms-popup-container .title {
+  color: #FFF;
+  font-family: Manofa;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#omakase .terms-popup-container .section-title {
+  font-family: Manofa;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+#omakase .terms-popup-container .text p,
+#omakase .terms-popup-container .beverage-pairing,
+#omakase .terms-popup-container .text p span {
+  font-weight: 500;
+}
+.close-terms-popup {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+#omakase .terms-popup-container .text p span {
+  font-size: 12px;
+}
+#omakase .terms-popup-container .text p,
+#omakase .terms-popup-container .beverage-pairing {
+  text-align: left;
+}
+#omakase .terms-popup-container .page-title {
+  font-size: 24px;
+  letter-spacing: 8px;
+  margin-bottom: 28px;
+}
+#omakase .terms-popup-container .nidaime-logo {
+  margin-top: -60px;
+  margin-left: -60px;
+  margin-bottom: -72px;
+}
+#omakase .terms-popup-container .terms-text p{
+  font-weight: 300;
+}
+#yugen-terms-checkbox {
+  width: 16px;
+  height: 16px;
 }
 
 
@@ -1127,6 +1231,42 @@ h2, .h2 {
     letter-spacing: 1px;
     font-size: 12px;
   }
+
+  #omakase .terms-text-open-dialog div {
+    letter-spacing: 1px;
+    font-size: 13px;
+  }
+  #omakase .terms-text-open-dialog > div {
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  #omakase .terms-popup-container {
+    padding: 20px 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    max-height: 75vh;
+    overflow-y: scroll;
+  }
+  #omakase .terms-popup-container .title {
+    font-size: 24px;
+  }
+  #omakase .terms-popup-container .section-title {
+    font-size: 20px;
+  }
+  .close-terms-popup {
+    top: 20px;
+    right: 20px;
+    z-index: 101;
+  }
+
+  #omakase .terms-popup-container .nidaime-logo {
+    margin-left: -32px;
+    width: 280px;
+  }
+  #omakase .terms-popup-container .page-title {
+    font-size: 20px;
+  }
+
 
 }
 
