@@ -1,0 +1,68 @@
+{% assign current_page = 'omakase' %}
+{% assign page_title = 'Nidaime Omakase' %}
+{% assign pageUrl = page.path | split: "/" %}
+
+{% include head.html %}
+
+{% include nav.html %}
+
+<main class="container mx-auto pt-32 pb-8 min-h-screen flex flex-col md:flex-row justify-between">
+  <div class="lg:w-3/5 lg:mr-20 md:custom-section-height md:overflow-y-scroll pb-16 md:pb-0">
+    <div class="pt-12 md:px-8">
+      <div class="nidaime-logo mx-auto">
+        <img src="{{ page.nidaime_logo }}" alt="{{ page.title }}">
+      </div>
+      <h1 class="page-title text-center animate__animated animate__fadeInUp">
+        {{ page.title }}
+      </h1>
+      <div class="text text-center mt-10 md:mt-12 mb-8 animate__animated animate__fadeInUp">
+        {{ page.main_text | markdownify}}
+      </div>
+      
+      <div class="mb-16 text animate__animated animate__fadeInUp animate__delay-1s">
+        {% if page.price and page.price != "" %}
+          <p class="mb-4">Price: {{ page.price }}</p>
+        {% endif %}
+        {% if page.beverage_pairing and page.beverage_pairing != "" %}
+          <div class="beverage-pairing">
+            Beverage pairing: 
+            <ul class="brewing-guide">
+                {% for beverage in page.beverage_pairing %}
+                <li>
+                  <span>{{ beverage.title }} - {{ beverage.price }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+        {% if page.availability and page.availability != "" %}
+          <p class="mt-4">
+            Availability: <br>
+            {{ page.availability }}
+          </p>
+        {% endif %}
+      </div>
+
+      <div class="text-center animate__animated animate__fadeInUp animate__delay-2s">
+        <a href="{{ page.button_link }}" class="book-now" >
+          {{ page.button_text }}
+        </a>
+      </div>
+
+      <div class="text-center mt-8">
+        <a href="{{ page.terms_btn_link }}" class="terms-button inline-block cursor-pointer animate__animated animate__fadeInUp animate__delay-2s">
+          {{ page.terms_btn_text }}
+          <div class="underline-animation"></div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="right-image-section lg:w-2/5 md:custom-section-height overflow-hidden">
+    <div class="w-full h-full animate__animated animate__fadeIn" style="background-image: url('{{ page.main_image }}')">
+      <img class="hidden" src="{{ page.main_image }}" alt="about">
+    </div>
+  </div>
+</main>
+
+{% include footer.html %}

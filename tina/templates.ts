@@ -313,3 +313,163 @@ export function newsFields() {
     },
   ] as TinaField[];
 }
+
+export function reservationsFields() {
+  return [
+    {
+      type: "string",
+      name: "layout",
+      label: "layout",
+      ui: {
+        component: () => null
+      }
+    },
+    {
+      type: "string",
+      name: "title",
+      label: "Title",
+    },
+    {
+      type: "string",
+      name: "price",
+      label: "Price",
+    },
+    {
+      type: "object",
+      name: "beverage_pairing",
+      label: "Beverage Pairing",
+      list: true,
+      ui: {
+        itemProps: (item) => {
+          return { label: `${item?.title} - ${item?.price} `}
+        },
+      },
+      fields: [
+        {
+          type: "string",
+          name: "title",
+          label: "Title",
+        },
+        {
+          type: "string",
+          name: "price",
+          label: "Price",
+        },
+      ],
+    },
+    {
+      type: "string",
+      name: "availability",
+      label: "Availability",
+      ui: {
+        component: "textarea",
+      },
+    },
+    {
+      type: "string",
+      name: "terms_title",
+      label: "Terms & Conditions Title",
+    },
+    {
+      type: "string",
+      name: "terms_text",
+      label: "Terms & Conditions Text",
+      ui: {
+        component: "textarea",
+      },
+    },
+  ] as TinaField[];
+}
+
+
+export function omakaseFields() {
+  return [
+    {
+      type: "string",
+      name: "layout",
+      label: "layout",
+      ui: {
+        component: () => null
+      }
+    },
+    {
+      type: "string",
+      name: "title",
+      label: "Title",
+    },
+    {
+      type: "string",
+      name: "price",
+      label: "Price",
+    },
+    {
+      type: "rich-text",
+      name: "main_text",
+      label: "Main text",
+    },
+    {
+      type: "object",
+      name: "beverage_pairing",
+      label: "Beverage Pairing",
+      list: true,
+      ui: {
+        itemProps: (item) => {
+          return { label: `${item?.title} - ${item?.price} `}
+        },
+      },
+      fields: [
+        {
+          type: "string",
+          name: "title",
+          label: "Title",
+        },
+        {
+          type: "string",
+          name: "price",
+          label: "Price",
+        },
+      ],
+    },
+    {
+      type: "string",
+      name: "availability",
+      label: "Availability",
+      ui: {
+        component: "textarea",
+      },
+    },
+    {
+      type: "string",
+      name: "terms_title",
+      label: "Terms & Conditions Title",
+    },
+    {
+      type: "string",
+      name: "terms_text",
+      label: "Terms & Conditions Text",
+      ui: {
+        component: "textarea",
+      },
+    },
+    {
+      type: "string",
+      name: "button_text",
+      label: "Button text",
+    },
+    {
+      type: "string",
+      name: "button_link",
+      label: "Button link",
+    },
+    {
+      type: "string",
+      name: "terms_btn_text",
+      label: "T&C button text",
+    },
+    {
+      type: "string",
+      name: "terms_btn_link",
+      label: "T&C button link",
+    },
+  ] as TinaField[];
+}

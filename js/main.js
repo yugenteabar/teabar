@@ -195,5 +195,49 @@ addEventListener('load', () => {
     //     mobPrevPos = mobCurrPos
     //   }
     // })
+
   }
+
+
+  function setCustomMargin() {
+    const customMargin = document.querySelectorAll('.custom-margin')
+    const container = document.querySelector('.container')
+    const containerStyle = container.currentStyle || window.getComputedStyle(container);
+
+    customMargin.forEach((cm) => {
+      cm.style.marginLeft = containerStyle.marginLeft
+      cm.style.marginRight = containerStyle.marginRight
+    })
+  }
+
+  if(document.querySelector('.custom-margin')){
+    setCustomMargin()
+
+    addEventListener('resize', () => {
+      setCustomMargin()
+    })
+  }
+
+  if(document.querySelector('.terms-text input')) {
+    const termsCheckbox = document.querySelector('.terms-text input')
+
+    termsCheckbox.addEventListener('change', () => acceptTerms(termsCheckbox));
+  }
+  
+
+  function acceptTerms(checkbox) {
+    const bookOverlay = document.querySelector('.book-overlay')
+    const termsWarning = document.querySelector('.terms-warning')
+
+    console.log(bookOverlay)
+    if(checkbox.checked) {
+      bookOverlay.classList.add('hide-behind')
+      termsWarning.classList.add('opacity-0')
+    }
+    else {
+      bookOverlay.classList.remove('hide-behind')
+      termsWarning.classList.remove('opacity-0')
+    }
+  }
+
 })

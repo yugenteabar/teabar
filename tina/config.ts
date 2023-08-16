@@ -7,6 +7,8 @@ import { learn_templateFields } from "./templates";
 import { menuFields } from "./templates";
 import { learnFields } from "./templates";
 import { newsFields } from "./templates";
+import { reservationsFields } from "./templates";
+import { omakaseFields } from "./templates";
 import { news___events_templateFields } from "./templates";
 
 // Your hosting provider likely exposes this as an environment variable
@@ -68,6 +70,16 @@ export default defineConfig({
             name: 'news',
             label: 'News page',
             fields: newsFields(),
+          },
+          {
+            name: 'reservations',
+            label: 'Reservations page',
+            fields: reservationsFields(),
+          },
+          {
+            name: 'omakase',
+            label: 'Omakase page',
+            fields: omakaseFields(),
           },
         ]
       },

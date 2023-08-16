@@ -80,7 +80,7 @@ body {
   margin-top: -2px;
   background-color: white;
 }
-
+label:hover .underline-animation,
 a:hover .underline-animation {
   background-color: #fff;
   animation: loadUnderline ease-out forwards 0.5s;
@@ -764,14 +764,132 @@ h2, .h2 {
 }
 
 
+/*  -----------------  */
+/*     RESERVATIONS    */
+/*  -----------------  */
+#reservations .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 10px;
+  color: #FFFFFF;
+}
+
+#reservations .nidaime-logo {
+  width: 260px;
+  height: 60px;
+  margin-left: -32px;
+  margin-bottom: 12px;
+}
+
+#reservations .terms-text p{
+  margin-top: 20px;
+}
+#reservations .terms-text p{
+  font-size: 10px;
+}
+#reservations .terms-label {
+  color: #FFF;
+  font-family: Garnett Medium;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+}
+
+#reservations .book-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+#reservations .book-overlay.hide-behind {
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0);
+}
+#reservations .text p,
+#reservations .text p span,
+#reservations .beverage-pairing,
+#reservations .beverage-pairing li,
+#reservations .beverage-pairing li span{
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.08em;
+  /* color:rgba(220, 220, 220) */
+  color: #FFFFFF;
+}
+
+.beverage-pairing ul {
+  list-style: none; 
+}
+
+.beverage-pairing  ul li::before {
+  content: "\2022";  
+  color: white; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em;
+}
+.beverage-pairing ul li {
+  padding-left: 28px;
+}
 
 
 
+/*  ------------  */
+/*     OMAKASE    */
+/*  ------------  */
+#omakase .page-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 10px;
+  color: #FFFFFF;
+}
 
+#omakase .nidaime-logo {
+  width: 340px;
+  height: 60px;
+  /* margin-left: -32px; */
+  margin-bottom: 12px;
+}
 
-/* body {
-  background-color: #777;
-} */
+#omakase .right-image-section {
+  /* border-radius: 40px; */
+}
+#omakase .right-image-section>div{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#omakase .right-image-section img {
+  height: 100%;
+  width: 100%;
+}
+#omakase .text p,
+#omakase .beverage-pairing,
+#omakase .beverage-pairing p,
+#omakase .beverage-pairing ul li span{
+  color: #FFF;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+#omakase main .book-now{
+  padding: 14px 44px;
+}
+#omakase .terms-button {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+
 
 
 
@@ -795,7 +913,7 @@ h2, .h2 {
     width: 45%;
   }
   .md\:custom-section-height {
-    height: calc(100vh - 180px);
+    min-height: calc(100vh - 180px);
   }
 
 }
@@ -1000,6 +1118,16 @@ h2, .h2 {
   #dining .arrowDown {
     animation: arrowDown ease-in-out infinite 1s;
   }
+
+  #reservations .title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  #reservations .terms-label div {
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+
 }
 
 @keyframes loadUnderline {
