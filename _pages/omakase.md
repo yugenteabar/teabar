@@ -2,6 +2,12 @@
 layout: omakase
 permalink: /omakase/
 main_image: '/assets/images/teabar omakase 1.jpg'
+hero_images:
+  - /assets/images/Omakase1.jpg
+  - /assets/images/Omakase2.jpg
+  - /assets/images/Omakase3.jpg
+  - /assets/images/Omakase4.jpg
+  - /assets/images/Omakase5.jpg
 nidaime_logo: '/assets/images/Nidaime Logo-White.png'
 title: OMAKASE
 main_text: >-
@@ -25,7 +31,7 @@ beverage_pairing:
     price: $165pp
   - title: Tea Discovery
     price: $75pp
-button_text: BOOK  NIDAIME OMAKASE
+button_text: BOOK now
 button_link: https://www.opentable.com.au/restref/client/?restref=158744&lang=en-AU&ot_source=Restaurant%20website&corrid=8edbade4-ea84-4e05-8fb8-4d552deb61cb
 terms_btn_text: OMAKASE TERMS & CONDITIONS
 terms_btn_link: https://www.opentable.com.au/restref/client/?restref=158744&lang=en-AU&ot_source=Restaurant%20website&corrid=8edbade4-ea84-4e05-8fb8-4d552deb61cb
@@ -33,7 +39,7 @@ terms_btn_link: https://www.opentable.com.au/restref/client/?restref=158744&lang
 
 omakase_popup_logo: '/assets/images/Nidaime Logo-White.png'
 omakase_popup_title: OMAKASE
-popup_terms_title: Nidaime Omakase Terms & Conditions
+popup_terms_title: Omakase Terms & Conditions
 popup_terms_text: >-
   Yugen Nidaime Omakase offer two sessions each night: <br />  
   1st session: begins at 6pm sharp till 8pm <br />  

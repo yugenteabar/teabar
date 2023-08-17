@@ -252,8 +252,6 @@ addEventListener('load', () => {
     const termsPopup = document.querySelector('#terms-popup')
     const termsTextOpenDialog = document.querySelector('.terms-text-open-dialog')
 
-    console.log('test', termsPopup)
-    console.log('termsTextOpenDialog', termsTextOpenDialog)
     const closeTermsPopup = termsPopup.querySelector('.close-terms-popup')
 
     termsPopup.addEventListener('click', (e) => {
@@ -276,6 +274,29 @@ addEventListener('load', () => {
       setTimeout(() => {
         termsPopup.classList.add('hidden')
       }, 300)
+    })
+  }
+
+  if(document.querySelector('.omakaseSwiper')){
+    const swiper = new Swiper(".omakaseSwiper", {
+      // cssMode: true,
+      loop: true,
+      responsive: true,
+      slidesPerView: 1,
+      disableOnInteraction: false, 
+      autoplay: {
+        delay: 3000,
+        loop: true,
+      },
+      keyboard: true,
+      // pagination: {
+      //   el: ".swiper-pagination",
+      //   type: "fraction",
+      // },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
     })
   }
 

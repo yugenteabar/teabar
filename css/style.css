@@ -933,7 +933,7 @@ h2, .h2 {
   font-size: 10px;
 } */
 #omakase .terms-popup-container {
-  padding: 60px 60px 60px 100px;
+  padding: 60px;
   background-color: rgba(0, 0, 0, 1);
   transition: all 0.3s ease-in-out;
   border: 1px solid rgba(225,225,225, 0.6);
@@ -983,7 +983,7 @@ h2, .h2 {
 }
 #omakase .terms-popup-container .nidaime-logo {
   margin-top: -60px;
-  margin-left: -60px;
+  margin-left: -32px;
   margin-bottom: -72px;
 }
 #omakase .terms-popup-container .terms-text p{
@@ -992,6 +992,9 @@ h2, .h2 {
 #yugen-terms-checkbox {
   width: 16px;
   height: 16px;
+}
+.omakaseSwiper .cover-image {
+  height: 100%;
 }
 
 
@@ -1266,8 +1269,15 @@ h2, .h2 {
   #omakase .terms-popup-container .page-title {
     font-size: 20px;
   }
+  .omakaseSwiper {
+    height: 60vh;
+  } 
+}
 
-
+@media (min-width: 768px) and (max-width: 1360px) {
+  #headerNav {
+    display: none;
+  }
 }
 
 @keyframes loadUnderline {

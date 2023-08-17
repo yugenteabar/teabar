@@ -6,7 +6,7 @@
 
 {% include nav.html %}
 
-<main class="container mx-auto pt-32 pb-8 min-h-screen flex flex-col md:flex-row justify-between">
+<main class="container mx-auto pt-24 pb-8 min-h-screen flex flex-col-reverse md:flex-row justify-between">
   <div class="lg:w-3/5 lg:mr-20 md:custom-section-height md:overflow-y-scroll pb-16 md:pb-0">
     <div class="md:px-8">
       <div class="nidaime-logo mx-auto">
@@ -62,10 +62,29 @@
     </div>
   </div>
 
+
+
   <div class="right-image-section lg:w-2/5 md:custom-section-height overflow-hidden">
-    <div class="w-full h-full animate__animated animate__fadeIn" style="background-image: url('{{ page.main_image }}')">
-      <img class="hidden" src="{{ page.main_image }}" alt="about">
+    <div class="swiper swiper-container omakaseSwiper reveal-delay-2200 h-full">
+      <div class="swiper-wrapper">
+        {% for image in page.hero_images %}
+        <div class="swiper-slide">
+          <div class="cover-image" style="background-image: url('{{image}}');">
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <!-- <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div> -->
+      <!-- <div class="swiper-pagination"></div> -->
     </div>
+    
+
+    
+
+    <!-- <div class="w-full h-full animate__animated animate__fadeIn" style="background-image: url('{{ page.main_image }}')">
+      <img class="hidden" src="{{ page.main_image }}" alt="about">
+    </div> -->
   </div>
 </main>
 
@@ -83,7 +102,7 @@
     <div class="nidaime-logo">
       <img src="{{ page.omakase_popup_logo }}" alt="{{ page.title }}">
     </div>
-    <h1 class="page-title">
+    <!-- <h1 class="page-title">
       {{ page.omakase_popup_title }}
     </h1>
     <div class="mb-12 text">
@@ -108,7 +127,7 @@
           {{ page.availability }}
         </p>
       {% endif %}
-    </div>
+    </div> -->
 
     <h2 class="section-title mb-4 md:mb-8">
       {{ page.popup_terms_title }}
