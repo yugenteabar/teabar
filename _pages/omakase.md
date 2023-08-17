@@ -32,9 +32,8 @@ beverage_pairing:
   - title: Tea Discovery
     price: $75pp
 button_text: BOOK now
-button_link: https://www.opentable.com.au/restref/client/?restref=158744&lang=en-AU&ot_source=Restaurant%20website&corrid=8edbade4-ea84-4e05-8fb8-4d552deb61cb
-terms_btn_text: OMAKASE TERMS & CONDITIONS
-terms_btn_link: https://www.opentable.com.au/restref/client/?restref=158744&lang=en-AU&ot_source=Restaurant%20website&corrid=8edbade4-ea84-4e05-8fb8-4d552deb61cb
+button_link: https://www.opentable.com/booking/experiences-availability?rid=158744&restref=158744&experienceId=191894&utm_source=external&utm_medium=referral&utm_campaign=shared
+
 
 
 omakase_popup_logo: '/assets/images/Nidaime Logo-White.png'
