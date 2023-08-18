@@ -834,6 +834,7 @@ h2, .h2 {
 }
 .beverage-pairing ul li {
   padding-left: 28px;
+  line-height: 18px;
 }
 
 
@@ -851,7 +852,7 @@ h2, .h2 {
 
 #omakase .nidaime-logo {
   width: 340px;
-  margin-bottom: -40px;
+  margin-bottom: -70px;
   margin-top: -40px;
 }
 
@@ -875,6 +876,10 @@ h2, .h2 {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.96px;
+}
+#omakase .main-text.text p {
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.9);
 }
 #omakase main .book-now{
   padding: 14px 44px;
@@ -956,11 +961,11 @@ h2, .h2 {
   font-size: 24px;
   letter-spacing: 0;
 }
-#omakase .terms-popup-container .text p,
+/* #omakase .terms-popup-container .text p,
 #omakase .terms-popup-container .beverage-pairing,
 #omakase .terms-popup-container .text p span {
   font-weight: 500;
-}
+} */
 .close-terms-popup {
   position: absolute;
   top: 32px;
@@ -976,6 +981,17 @@ h2, .h2 {
 #omakase .terms-popup-container .beverage-pairing {
   text-align: left;
 }
+
+#omakase .terms-popup-container .text p {
+  font-size: 12px;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.9);
+}
+#omakase .terms-popup-container .text p b{
+  font-size: 12px;
+  font-weight: 500;
+  color: white
+}
 #omakase .terms-popup-container .page-title {
   font-size: 24px;
   letter-spacing: 8px;
@@ -987,7 +1003,7 @@ h2, .h2 {
   margin-bottom: -72px;
 }
 #omakase .terms-popup-container .terms-text p{
-  font-weight: 300;
+  /* font-weight: 300; */
 }
 #yugen-terms-checkbox {
   width: 16px;
@@ -1244,7 +1260,7 @@ h2, .h2 {
     letter-spacing: 0;
   }
   #omakase .terms-popup-container {
-    padding: 20px 12px;
+    padding: 60px 12px;
     margin-left: 12px;
     margin-right: 12px;
     max-height: 75vh;

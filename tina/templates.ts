@@ -326,19 +326,30 @@ export function omakaseFields() {
       }
     },
     {
+      type: "image",
+      name: "hero_images",
+      label: "Slider Images",
+      list: true,
+    },
+    {
+      type: "image",
+      name: "nidaime_logo",
+      label: "Nidaime Image",
+    },
+    {
       type: "string",
       name: "title",
       label: "Title",
     },
     {
-      type: "string",
-      name: "price",
-      label: "Price",
-    },
-    {
       type: "rich-text",
       name: "main_text",
       label: "Main text",
+    },
+    {
+      type: "string",
+      name: "price",
+      label: "Price",
     },
     {
       type: "object",
@@ -373,12 +384,12 @@ export function omakaseFields() {
     },
     {
       type: "string",
-      name: "terms_title",
+      name: "popup_terms_title",
       label: "Terms & Conditions Title",
     },
     {
       type: "string",
-      name: "terms_text",
+      name: "popup_terms_text",
       label: "Terms & Conditions Text",
       ui: {
         component: "textarea",
@@ -393,16 +404,6 @@ export function omakaseFields() {
       type: "string",
       name: "button_link",
       label: "Button link",
-    },
-    {
-      type: "string",
-      name: "terms_btn_text",
-      label: "T&C button text",
-    },
-    {
-      type: "string",
-      name: "terms_btn_link",
-      label: "T&C button link",
     },
   ] as TinaField[];
 }
