@@ -10,7 +10,7 @@ hero_images:
   - /assets/images/Omakase5.jpg
 nidaime_logo: /assets/images/Nidaime Logo-White.png
 title: OMAKASE
-main_text: "Experience the enigmatic world of Nidaime Omakase.\L\nThis refined multi-course menu has been curated by our second-generation Chefs and Sommeliers to captivate your senses and take you beyond the ordinary in a fun, relaxed space.\L\n\n\nPresented at Yūgen Tea Bar, this 8 seater Chef-to-guest experience immerses you in a realm of intrigue and style, where we shine a light on the freshest produce.\n\n\nOur ever-evolving beverage menus have expanded to include pairings of high-quality Teas & Sake, and have expertly crafted to compliment the food on offer.\n"
+main_text: "Immerse yourself in the enigmatic world of\_Nidaime\_Omakase.\_\\\n\nOur talented Chefs\_and Sommeliers have curated a refined multi-course menu,\nthat goes beyond the ordinary.\n\nHosted at\_Yūgen\_Tea Bar,\_this intimate 8 seater Chef-to-Guest experience\_serves as\_an\_incubator for experimental\_ideas, shining a light on the best seasonal produce\_to captivate your senses in a\_laid-back\_and entertaining space.\n\nOur\_ever-evolving\_beverage menus\_will\_include small release, rare & one-off pairings\_of high-quality\_\nSake, Tea & Whisky’s\_to complement the food on offer.\n"
 price: $175
 availability: 'Wednesday to Sunday. Dinner only. 6pm or 8:30pm'
 beverage_pairing:
@@ -51,6 +51,7 @@ popup_terms_text: >-
   processing fee Mastercard / Visa 1.2% - Amex/ Other 1.6%.
 _template: omakase
 ---
+
 
 
 
