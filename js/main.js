@@ -23,7 +23,12 @@ addEventListener('load', () => {
       document.body.style.position = 'fixed'
       if (innerWidth < 500) {
         document.querySelector('#bookNow').classList.add('hidden')
-        document.querySelector('#mobileLogo').classList.remove('hidden')
+        if(document.getElementsByTagName("body")[0].id === 'omakase') {
+
+        }
+        else {
+          document.querySelector('#mobileLogo').classList.remove('hidden')
+        }
       }
       TOGGLE_MENU = true
     }
@@ -42,7 +47,12 @@ addEventListener('load', () => {
       document.body.style.left = ``
       if (innerWidth < 500) {
         document.querySelector('#bookNow').classList.remove('hidden')
-        document.querySelector('#mobileLogo').classList.add('hidden')
+        if(document.getElementsByTagName("body")[0].id === 'omakase') {
+          
+        }
+        else {
+          document.querySelector('#mobileLogo').classList.add('hidden')
+        }
       }
       window.scrollTo(0, parseInt(scrollY || '0') * -1)
       TOGGLE_MENU = false

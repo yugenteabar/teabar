@@ -1066,15 +1066,18 @@ h2, .h2 {
     padding-right: 24px;
   }
 
+  #navList {
+    padding-top: 40px;
+  }
   .nav-link {
     display: block;
     width: 100%;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 19px;
+    line-height: 26px;
     padding-top: 6px;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
     padding-right: 20px;
-    margin-bottom: 6px;
+    margin-bottom: 3px;
     margin-top: 4px;
   }
 
