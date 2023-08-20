@@ -22,7 +22,7 @@ beverage_pairing:
     price: $75pp
 button_text: BOOK now
 button_link: >-
-  https://www.opentable.com/booking/experiences-availability?rid=158744&restref=158744&experienceId=191894&utm_source=external&utm_medium=referral&utm_campaign=shared
+  https://www.opentable.com/booking/experiences-availability?rid=158744&restref=158744&experienceId=192524&utm_source=external&utm_medium=referral&utm_campaign=shared
 omakase_popup_logo: /assets/images/Nidaime Logo-White.png
 omakase_popup_title: OMAKASE
 popup_terms_title: Omakase Terms & Conditions
@@ -51,6 +51,7 @@ popup_terms_text: >-
   processing fee Mastercard / Visa 1.2% - Amex/ Other 1.6%.
 _template: omakase
 ---
+
 
 
 
