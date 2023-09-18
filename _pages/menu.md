@@ -3,7 +3,7 @@ layout: menu
 permalink: /menu/
 menu_sections:
   - section_title: Yugen Tea Bar
-    section_image: /uploads/afternoon-tea.jpeg
+    section_image: /assets/images/uploads/afternoon-tea.jpeg
     section_text: >-
       Yugen's afternoon high tea is inspired by the classic English afternoon
       tea, with some bold twists and turns. Let our tea sommeliers and pastry
@@ -21,10 +21,11 @@ menu_sections:
       yours to create.
     section_button_text: Day Menu
     section_menu_url: 'https://cdn.flipsnack.com/widget/v2/widget.html?hash=zuiykm9zhm'
-    menu_file: /uploads/easter-yugen-tea-bar-day-menu-23-03-2023.pdf
+    menu_file: '/assets/images/Yugen Tea Bar Day menu - 30.08..2023[35].pdf'
 title: Menu
 _template: menu
 ---
+
 
 
 
