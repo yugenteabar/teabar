@@ -38,6 +38,9 @@ body {
   justify-content: center;
 }
 
+.z-100 {
+  z-index: 100;
+}
 
 /* animate */
 .animate-delay-100 {
@@ -284,6 +287,64 @@ img {
 
 #homepage .cover-image{
   background-image: url('/img/Interior\ Image\ -\ Home\ Page.png')
+}
+
+#homepage-popup .popup-wrapper {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(5px);
+  z-index: -1;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+#homepage-popup .popup-wrapper.active  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  z-index: 100;
+}
+.popup-box {
+  width: clamp(340px, 40em, calc(100% - 32px));
+  padding: 4em 1.25em;
+}
+.popup-title {
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+.popup-content {
+  margin-bottom: 1.25em;
+}
+.popup-content p  {
+  margin-bottom: 1em;
+}
+.popup-content, 
+.popup-content p {
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+.popup-btn a{
+  font-size: 16px;
+  padding: 12px 32px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  transition: all .3s ease;
+  font-weight: 500;
+  color: #fff;
+  
+  
+}
+.popup-btn a:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
 }
 
 /*  ---------------------  */
@@ -1083,6 +1144,20 @@ h2, .h2 {
   }
   #horizontalYugen {
     margin-bottom: -40px;
+  }
+
+  .popup-title {
+    font-size: 24px;
+  }
+  .popup-content, .popup-content p {
+    font-size: 16px;
+  }
+
+  .popup-btn a {
+    font-size: 14px;
+    padding: 12px 32px;
+    text-align: center;
+    width: 100%;
   }
 
 
