@@ -5,12 +5,12 @@ omakase_popup_logo: /assets/images/Nidaime Logo-White.png
 omakase_popup_title: OMAKASE
 layout: omakase
 hero_images:
-  - /uploads/assets/images/Omakase1.jpg
-  - /uploads/assets/images/Omakase2.jpg
-  - /uploads/assets/images/Omakase3.jpg
-  - /uploads/assets/images/Omakase4.jpg
-  - /uploads/assets/images/Omakase5.jpg
-nidaime_logo: /uploads/assets/images/Nidaime Logo-White.png
+  - /assets/images/Omakase1.jpg
+  - /assets/images/Omakase2.jpg
+  - /assets/images/Omakase3.jpg
+  - /assets/images/Omakase4.jpg
+  - /assets/images/Omakase5.jpg
+nidaime_logo: /assets/images/Nidaime Logo-White.png
 title: OMAKASE
 main_text: "Immerse yourself in the enigmatic world of\_Nidaime\_Omakase.\nOur talented Chefs\_and Sommeliers have curated a refined multi-course menu,\nthat goes beyond the ordinary.\n\nHosted at\_Yūgen\_Tea Bar,\_this intimate 8 seater Chef-to-Guest experience\_serves as\_an\_incubator for experimental\_ideas, shining a light on the best seasonal produce\_to captivate your senses in a\_laid-back\_and entertaining space.\n\nOur\_ever-evolving\_beverage menus\_will\_include small release, rare & one-off pairings\_of high-quality\_\nSake, Tea & Whisky’s\_to complement the food on offer.\n"
 price: $175
@@ -51,4 +51,8 @@ button_link: >-
   https://www.opentable.com/booking/experiences-availability?rid=158744&restref=158744&experienceId=192524&utm_source=external&utm_medium=referral&utm_campaign=shared
 _template: omakase
 ---
+
+
+
+
 
