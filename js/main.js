@@ -167,7 +167,7 @@ addEventListener('load', () => {
   const homepagePopup = document.getElementById('homepage-popup')
   const homepageWrapper = document.querySelector('.popup-wrapper')
   const popupCloseButton = document.querySelector('.popup-close-button')
-  const popUpTimer = 5 // seconds
+  const popUpTimer = 2500 // miliseconds
 
   if(homepagePopup) {
     setTimeout(() => {
@@ -175,7 +175,7 @@ addEventListener('load', () => {
       setTimeout(() => {
         homepageWrapper.classList.add('active')
       }, 200)
-    }, popUpTimer*1000)
+    }, popUpTimer)
   
     popupCloseButton.addEventListener('click', () => {
       homepagePopup.classList.add('hidden')
