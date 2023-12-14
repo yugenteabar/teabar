@@ -1130,6 +1130,7 @@ h2, .h2 {
   .animate__fadeInLeft {
     animation-name: fadeInUp;
   }
+  
 
   .container {
     padding-left: 24px;
@@ -1167,6 +1168,18 @@ h2, .h2 {
     padding: 12px 32px;
     text-align: center;
     width: 100%;
+  }
+
+  .popup-box {
+    padding: 2em 1em;
+  }
+  .close-button-popup {
+    top: 24px;
+  }
+  
+  .popup-content-box {
+    max-height: 85dvh;
+    padding-right: 5px;
   }
 
 
