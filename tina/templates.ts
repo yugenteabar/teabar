@@ -73,7 +73,7 @@ export function contactFields() {
           label: "Phone Number",
         },
         {
-          type: "number",
+          type: "string",
           name: "phone_number_formated",
           label: "Phone Number Formated",
         },
@@ -101,13 +101,33 @@ export function contactFields() {
     },
     {
       type: "string",
-      name: "open_hours_days",
-      label: "Open Hours Days",
+      name: "open_hours_title_first_line",
+      label: "Open Hours Title First Line",
     },
     {
       type: "string",
-      name: "open_hours_time",
-      label: "Open Hours Time",
+      name: "open_hours_days_first_line",
+      label: "Open Hours Days First Line",
+    },
+    {
+      type: "string",
+      name: "open_hours_time_first_line",
+      label: "Open Hours Time First Line",
+    },
+    {
+      type: "string",
+      name: "open_hours_title_second_line",
+      label: "Open Hours Title First Line Second Line",
+    },
+    {
+      type: "string",
+      name: "open_hours_days_second_line",
+      label: "Open Hours Days First Line Second Line",
+    },
+    {
+      type: "string",
+      name: "open_hours_time_second_line",
+      label: "Open Hours Time Second Line",
     },
   ] as TinaField[];
 }

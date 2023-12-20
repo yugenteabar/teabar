@@ -57,9 +57,22 @@
         <div class="contact-label">
           Open Hours
         </div>
-        <div class="open-hours-value">
-          {{ page.open_hours_days }} <br class="hidden md:block"> {{ page.open_hours_time }}
+        <div class="open-hours-value mt-3">
+          {{ page.open_hours_title_first_line }}
+          <br class="hidden md:block"> 
+          {{ page.open_hours_days_first_line }}
+          <br class="hidden md:block"> 
+          {{ page.open_hours_time_first_line }}
         </div>
+        {% if page.open_hours_days_second_line %}
+          <div class="open-hours-value mt-3">
+            {{ page.open_hours_title_second_line }} 
+            <br class="hidden md:block"> 
+            {{ page.open_hours_days_second_line }} 
+            <br class="hidden md:block"> 
+            {{ page.open_hours_time_second_line }}
+          </div>
+        {% endif %}
       </div>
     </div>
 
