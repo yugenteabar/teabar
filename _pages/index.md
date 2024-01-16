@@ -2,10 +2,10 @@
 permalink: //
 layout: index
 title: Homepage
-show_popup: false
-popup_title: 'Yūgen: A Delicious Gift Idea!'
+show_popup: true
+popup_title: Lunar New Year at Yūgen Tea Bar
 popup_text: >
-  ![](/uploads/L1910151.jpg)
+  ![](/uploads/1.jpg)![]()
 
 
   Take Christmas gifting up a notch with the gift of a memorable dining
