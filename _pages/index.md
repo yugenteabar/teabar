@@ -5,7 +5,7 @@ title: Homepage
 show_popup: true
 popup_title: Lunar New Year at Yūgen Tea Bar
 popup_text: |
-  ![](/uploads/1.jpg)![]()
+  ![](/uploads/1.jpg)
 popup_button_text: Gift Tea Sets & Limited Edition Desserts
 popup_button_link: 'https://mailchi.mp/032fe1413361/lunar-new-year'
 _template: homepage
