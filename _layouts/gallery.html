@@ -16,7 +16,7 @@
         <div class="swiper-wrapper">
           {% for image in page.gallery_images  %}
           <div class="swiper-slide">
-            <img src="{{image}}" alt="">
+            <img src="{{image}}" alt="{{ image }}">
           </div>
           {% endfor %}
         </div>
@@ -38,7 +38,7 @@
       <div class="swiper-wrapper">
         {% for image in page.gallery_images  %}
         <div class="swiper-slide">
-          <img src="{{image}}" alt="">
+          <img src="{{image}}" alt="{{ image }}">
         </div>
         {% endfor %}
       </div>

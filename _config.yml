@@ -24,12 +24,16 @@ collections:
   projects:
     output: true
     permalink: "/projects/:path/"
+seo:
+  canonical: true
 jekyll-archives:
   enabled: all
   layout: "archive"
 plugins:
   - jekyll-feed
   - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

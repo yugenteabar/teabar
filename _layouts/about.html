@@ -8,8 +8,8 @@
 
 <main class="container mx-auto pt-32 pb-8 min-h-screen flex flex-col md:flex-row justify-between">
   <div class="left-image-section md:w-45per md:custom-section-height overflow-hidden">
-    <div class="w-full h-full animate__animated animate__fadeIn" style="background-image: url('{{ page.main_image }}')">
-      <img class="hidden" src="{{ page.main_image }}" alt="about">
+    <div class="w-full h-full animate__animated animate__fadeIn" style="background-image: url('{{ page.main_image }}')" title="{{ page.title }}-1">
+      <img class="hidden" src="{{ page.main_image }}" alt="{{ page.title }}">
     </div>
   </div>
   <div class="md:w-45per md:custom-section-height md:overflow-y-scroll pb-16 md:pb-0">
