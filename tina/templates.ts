@@ -11,6 +11,11 @@ export function aboutFields() {
     },
     {
       type: "string",
+      name: "meta_description",
+      label: "Meta Description",
+    },
+    {
+      type: "string",
       name: "title",
       label: "Title",
     },
@@ -56,6 +61,11 @@ export function contactFields() {
       ui: {
         component: () => null
       }
+    },
+    {
+      type: "string",
+      name: "meta_description",
+      label: "Meta Description",
     },
     {
       type: "string",
@@ -143,6 +153,11 @@ export function galleryFields() {
     },
     {
       type: "string",
+      name: "meta_description",
+      label: "Meta Description",
+    },
+    {
+      type: "string",
       name: "title",
       label: "Title",
     },
@@ -163,6 +178,11 @@ export function indexFields() {
       ui: {
         component: () => null
       }
+    },
+    {
+      type: "string",
+      name: "meta_description",
+      label: "Meta Description",
     },
     {
       type: "string",
@@ -208,6 +228,11 @@ export function learn_templateFields() {
     },
     {
       type: "string",
+      name: "meta_description",
+      label: "Meta Description",
+    },
+    {
+      type: "string",
       name: "title",
       label: "Title",
       required: true,
@@ -240,6 +265,11 @@ export function learnFields() {
     },
     {
       type: "string",
+      name: "meta_description",
+      label: "Meta Description",
+    },
+    {
+      type: "string",
       name: "title",
       label: "Title",
     },
@@ -255,6 +285,11 @@ export function menuFields() {
       ui: {
         component: () => null
       }
+    },
+    {
+      type: "string",
+      name: "meta_description",
+      label: "Meta Description",
     },
     {
       type: "string",
@@ -321,6 +356,11 @@ export function news___events_templateFields() {
     },
     {
       type: "string",
+      name: "meta_description",
+      label: "Meta Description",
+    },
+    {
+      type: "string",
       name: "title",
       label: "Title",
       required: true,
@@ -353,6 +393,11 @@ export function newsFields() {
     },
     {
       type: "string",
+      name: "meta_description",
+      label: "Meta Description",
+    },
+    {
+      type: "string",
       name: "title",
       label: "Title",
     },
@@ -369,6 +414,11 @@ export function omakaseFields() {
       ui: {
         component: () => null
       }
+    },
+    {
+      type: "string",
+      name: "meta_description",
+      label: "Meta Description",
     },
     {
       type: "image",
