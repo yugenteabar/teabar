@@ -1,20 +1,98 @@
 {% assign pageUrl = page.path | split: "/" %}
-<footer class="animate__animated animate__fadeIn">
-  {% if page.layout != 'index' %}
-  <div class="container mx-auto">
-    <div class="flex items-center justify-end text-xs py-6 mt-10">
-      <a target="_blank" href="/pdf/LK Hospitality Privacy Policy.pdf" class="">
-        Privacy Policy
-        <div class="underline-animation"></div>
+<footer class="container mx-auto py-16">
+  <!-- upper section -->
+  <div class="flex flex-col lg:flex-row justify-between items-center">
+    <!-- footer text -->
+    <div class="footer-informations mb-8 lg:mb-0 flex flex-col order-4 lg:order-1 reveal">
+      <div class="reveal-delay-200">
+        Nidaime Omakase
+      </div>
+      <div class="reveal-delay-200">
+        Wednesday - Sunday 
+      </div>
+      <div class="reveal-delay-200">
+        6pm - Late
+      </div>
+
+
+      <div class="reveal-delay-400 mt-6">
+        Yūgen Tea Bar
+      </div>
+      <div class="reveal-delay-400">
+        Saturday & Sunday
+      </div>
+      <div class="reveal-delay-400">
+        12pm - 4:30pm
+      </div>
+      
+
+      <a href="mailto:info@yugenteabar.com.au" target="_blank" class="reveal-delay-600">
+        <div class="pt-6">
+          info@yugenteabar.com.au
+        </div>
       </a>
     </div>
+    <!-- logo -->
+    <div class="footer-logo mb-8 lg:mb-0 lg:ml-6 order-1 lg:order-2 reveal">
+      <a href="/">
+        <img src="/img/YTB.png" alt="Yugen Footer Logo">
+      </a>
+    </div>
+    <!-- informations -->
+    <div class="footer-informations mb-8 lg:mb-0 flex flex-col text-right order-3 lg:order-4 reveal">
+      <!-- social networks -->
+      <div class="footer-socials flex items-center justify-between px-2">
+        <a href="https://www.instagram.com/yugenteabar/" target="_blank">
+          <img src="/img/instagram.svg" alt="instagram" style="width: 22px;">
+        </a>
+        <a href="https://www.facebook.com/Yugenteabar/" target="_blank">
+          <img src="/img/facebook.svg" alt="instagram" style="width: 16px;">
+        </a>
+        <a href="https://www.tiktok.com/@yugenteabar" target="_blank">
+          <img src="/img/tiktok-1.svg" alt="instagram" style="width: 26px;">
+        </a>
+      </div>
+      <div class="mobile-hidden">
+        <div class="below-socials-text mt-6">
+          Be the first to find out <br> about special events
+        </div>
+        <div class="flex mt-6 justify-center animate__animated animate__fadeInUp animate__delay-1s">
+          <a href="https://forms.zohopublic.com.au/omniaportal/form/YugenTeabarNewsletter/formperma/uur9ukIiQEcekhWWqTZOaU2NE7NV1Kgy0exTheLVPZE"
+            class="subscribe-btn">
+            subscribe
+          </a>
+        </div>
+        <div class="mt-6 flex items-center justify-center animate__animated animate__fadeInUp animate__delay-2s">
+          <a target="_blank" href="/pdf/LK Hospitality Privacy Policy.pdf" class="footer-privacy-policy">
+            Privacy Policy
+            <div class="underline-animation"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile show -->
+    <div class="mobile-show order-5">
+      <div class="below-socials-text mt-6">
+        Be the first to find out <br> about special events
+      </div>
+      <div class="flex mt-6 justify-center animate__animated animate__fadeInUp animate__delay-1s">
+        <a href="https://forms.zohopublic.com.au/omniaportal/form/YugenTeabarNewsletter/formperma/uur9ukIiQEcekhWWqTZOaU2NE7NV1Kgy0exTheLVPZE"
+          class="subscribe-btn">
+          subscribe
+        </a>
+      </div>
+      <div class="mt-6 flex items-center justify-center animate__animated animate__fadeInUp animate__delay-2s">
+        <a target="_blank" href="/pdf/LK Hospitality Privacy Policy.pdf" class="footer-privacy-policy">
+          Privacy Policy
+          <div class="underline-animation"></div>
+        </a>
+      </div>
+    </div>
   </div>
-  {% endif %}
-  
 </footer>
 <!-- Javascript -->
-<script src="/js/scrollreveal.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="../js/scrollreveal.js"></script>
 
 <script src="/js/main.js" type="module"></script>
 </body>
