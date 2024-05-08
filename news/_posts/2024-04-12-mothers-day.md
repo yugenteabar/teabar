@@ -1,7 +1,8 @@
 ---
 meta_description: Mother's Day at Yugen Tea Bar
 title: Mother's Day at Yūgen Tea Bar
-cover_image: /uploads/YTB Mother's Day website.png
+cover_image: /uploads/YTB Mothers Day website.png
+layout: post
 ---
 
 Join us at Yugen Tea Bar for a Special Mother's Day Treat!
