@@ -2,7 +2,7 @@
 permalink: //
 layout: index
 title: Homepage
-show_popup: true
+show_popup: false
 popup_title: Mother's Day
 popup_text: |
   ![Mothers Day](/uploads/3.png)
