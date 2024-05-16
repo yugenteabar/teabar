@@ -6,7 +6,6 @@ omakase_popup_title: OMAKASE
 layout: omakase
 meta_description: Nidaime Omakase at Yugen Tea Bar
 hero_images:
-  - /uploads/Omakase5.jpg
   - /uploads/Nidaime Low Res-5.jpg
   - /uploads/Nidaime Low Res-2-.jpg
   - /uploads/Nidaime Low Res-1.jpg
