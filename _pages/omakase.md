@@ -6,13 +6,12 @@ omakase_popup_title: OMAKASE
 layout: omakase
 meta_description: Nidaime Omakase at Yugen Tea Bar
 hero_images:
-  - /uploads/outside-night-min.jpg
   - /uploads/Nidaime Low Res-7.jpg
   - /uploads/Nidaime Low Res-5.jpg
   - /uploads/Nidaime Low Res-2-.jpg
   - /uploads/Nidaime Low Res-1.jpg
-nidaime_logo: ''
-title: OMAKASE
+nidaime_logo: /uploads/Nidaime Low Res-7.jpg
+title: ' OMAKASE'
 main_text: "Immerse yourself in the enigmatic world of\_Nidaime\_Omakase.\nOur talented Chefs\_and Sommeliers have curated a refined multi-course menu,\nthat goes beyond the ordinary.\n\nHosted at\_Yūgen\_Tea Bar,\_this intimate 8 seater Chef-to-Guest experience\_serves as\_an\_incubator for experimental\_ideas, shining a light on the best seasonal produce\_to captivate your senses in a\_laid-back\_and entertaining space.\n\nOur\_ever-evolving\_beverage menus\_will\_include small release, rare & one-off pairings\_of high-quality\_\nSake, Tea & Whisky’s\_to complement the food on offer.\n"
 price: $175
 beverage_pairing:
