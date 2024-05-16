@@ -4,6 +4,7 @@ main_image: /assets/images/teabar omakase 1.jpg
 omakase_popup_logo: /assets/images/Nidaime Logo-White.png
 omakase_popup_title: OMAKASE
 layout: omakase
+meta_description: Nidaime Omakase at Yugen Tea Bar
 hero_images:
   - /uploads/outside-night-min.jpg
   - /uploads/Nidaime Low Res-7.jpg
