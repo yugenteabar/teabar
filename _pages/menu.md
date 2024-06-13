@@ -22,7 +22,7 @@ menu_sections:
       yours to create.
     section_button_text: Day Menu
     section_menu_url: 'https://cdn.flipsnack.com/widget/v2/widget.html?hash=zuiykm9zhm'
-    menu_file: /uploads/Yugen Tea Bar Day menu - 06.04.2024.pdf
+    menu_file: /uploads/Yugen Tea Bar Day menu - 12.06.2024.pdf
 _template: menu
 ---
 
