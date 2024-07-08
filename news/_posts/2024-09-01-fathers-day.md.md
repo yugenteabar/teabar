@@ -5,12 +5,11 @@ title: Father's Day at Yūgen Tea Bar
 cover_image: /uploads/YTB Fathers Day 2024.gif
 ---
 
-
-Father's Day at Yugen Tea Bar
+Father's Day at Yūgen Tea Bar
 
 On September 1st, we’re excited to welcome you and your loved ones for a delightful Father's Day Afternoon Tea experience.
 
-Indulge in a selection of premium teas, accompanied by Champagne, and an array of delicious sweet and savoury bites. 
+Indulge in a selection of premium teas, accompanied by Champagne, and an array of delicious sweet and savoury bites.
 
 Make this Father's Day memorable with a visit to Yūgen Tea Bar. Reserve your table now and treat Dad to a warm and welcoming experience filled with delicious treats and good company.
 
