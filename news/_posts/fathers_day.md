@@ -1,11 +1,11 @@
 ---
 layout: post
 meta_description: Father's Day at Yugen Tea Bar
-title: Father's Day at Yūgen Tea Bar
+title: Father's Day Afternoon Tea
 cover_image: /uploads/YTB Fathers Day 2024.gif
 ---
 
-Father's Day at Yūgen Tea Bar
+Join us for Father's Day at Yūgen Tea Bar
 
 On September 1st, we’re excited to welcome you and your loved ones for a delightful Father's Day Afternoon Tea experience.
 
