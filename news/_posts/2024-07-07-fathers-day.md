@@ -1,7 +1,7 @@
 ---
 layout: post
 meta_description: Father's Day at Yugen Tea Bar
-title: Father's Day at Yūgen Tea Bar
+title: Father's Day Afternoon Tea
 cover_image: /uploads/YTB Fathers Day 2024.gif
 ---
 
