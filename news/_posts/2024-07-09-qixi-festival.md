@@ -5,7 +5,7 @@ title: Qixi Festival
 cover_image: /uploads/Qixi Festival - What's On page.gif
 ---
 
-LOVERS AFTERNOON TEA
+Lovers Afternoon Tea
 
 
 135 per guest
