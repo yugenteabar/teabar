@@ -5,8 +5,9 @@ title: Qixi Festival
 cover_image: /uploads/Qixi Festival - What's On page.gif
 ---
 
-
 LOVERS AFTERNOON TEA
+
+
 135 per guest
 
 2-hour sitting between 12pm - 4:30pm
