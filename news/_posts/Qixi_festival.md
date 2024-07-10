@@ -1,6 +1,6 @@
 ---
 layout: post
-meta_description: 'Qixi Festival '
+meta_description: '2024-07-09-Qixi-Festival '
 title: Qixi Festival
 cover_image: /uploads/Qixi Festival - What's On page.gif
 ---
