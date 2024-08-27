@@ -6,8 +6,7 @@ title: Homepage
 show_popup: true
 popup_title: Father's Day
 popup_text: |
-  ![](</uploads/website popup.gif>)
-
+  ![](/uploads/5.png)\
   Join us for a Father's Day Afternoon Tea Sunday, September 1st
 popup_button_text: Fathers Day
 popup_button_link: >-
