@@ -13,4 +13,4 @@ Indulge in a selection of premium teas, accompanied by Champagne, and an array o
 
 Make this Father's Day memorable with a visit to Yūgen Tea Bar. Reserve your table now and treat Dad to a warm and welcoming experience filled with delicious treats and good company.
 
-**[BOOK HERE](https://www.opentable.com/booking/experiences-availability?rid=158744\&restref=158744\&experienceId=319834\&utm_source=external\&utm_medium=referral\&utm_campaign=shared "BOOK HERE")**
+### [BOOK HERE](https://www.opentable.com/booking/experiences-availability?rid=158744\&restref=158744\&experienceId=319834\&utm_source=external\&utm_medium=referral\&utm_campaign=shared)
