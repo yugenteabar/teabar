@@ -1,7 +1,7 @@
 ---
-permalink: /menu/
-layout: menu
-title: Menu
+# permalink: /menu/
+# layout: menu
+# title: Menu
 menu_sections:
   - section_title: Yugen Tea Bar
     section_image: /uploads/afternoon-tea.jpeg

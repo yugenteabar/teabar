@@ -1,7 +1,7 @@
 ---
-layout: about
-title: About
-permalink: /about/
+# layout: about
+# title: About
+# permalink: /about/
 subtitle: >-
   Step into a realm of discovery and beauty - where the senses are engaged, and
   rituals shared. Yugen Tea Bar takes an elevated approach to the common drink
