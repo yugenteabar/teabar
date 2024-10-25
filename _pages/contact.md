@@ -9,7 +9,7 @@ phone:
   phone_number_formated: 0380808080
 email: info@yugenteabar.com.au
 careers_title: Careers
-careers_text: 'If you are interested in joining our team, please email your resume to:'
+careers_text: ''
 careers_email: info@yugenteabar.com.au
 open_hours_title_first_line: 'Nidaime Omakase:'
 open_hours_days_first_line: Wednesday to Sunday
