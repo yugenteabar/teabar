@@ -15,7 +15,7 @@ main_text: "Immerse yourself in the enigmatic world of\_Nidaime\_Omakase.\n\nOma
 price: $175
 beverage_pairing:
   - title: Indulge Sake & Wine Pairing
-    price: $85pp
+    price: 85pp
   - title: Prestige Sake & Wine Pairing
     price: 165pp
   - title: Tea Discovery
