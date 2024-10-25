@@ -19,7 +19,7 @@ beverage_pairing:
   - title: Prestige Sake & Wine Pairing
     price: 165pp
   - title: Tea Discovery
-    price: $75pp
+    price: 75pp
 availability: 'Wednesday to Sunday. Dinner only. 6pm or 8:30pm'
 popup_terms_title: Omakase Terms & Conditions
 popup_terms_text: >-
