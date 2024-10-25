@@ -17,7 +17,7 @@ beverage_pairing:
   - title: Indulge Sake & Wine Pairing
     price: $85pp
   - title: Prestige Sake & Wine Pairing
-    price: $165pp
+    price: 165pp
   - title: Tea Discovery
     price: $75pp
 availability: 'Wednesday to Sunday. Dinner only. 6pm or 8:30pm'
