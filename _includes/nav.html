@@ -4,7 +4,7 @@
     <!-- logo -->
     <div class="hidden sm:block header-logo">
       <a href="/?a=hidden">
-        <img src="/img/logo.svg" width="70" alt="menu" class="animate__animated animate__fadeIn">
+        <img src="/img/logo.png" width="70" alt="menu" class="animate__animated animate__fadeIn">
       </a>
     </div>
     <div id="headerNav" class="hidden sm:flex justify-between items-center animate__animated animate__fadeIn"
@@ -21,12 +21,16 @@
         Online store
         <div class="underline-animation"></div>
       </a> -->
-      <a href="/news" class="header-nav-link">
-        News & Events
-        <div class="underline-animation"></div>
-      </a>
+      <div>
+        {% if url != '/' %}
+          <a href="/news" class="header-nav-link">
+            News & Events
+            <div class="underline-animation"></div>
+          </a>
+        {% endif %}
+      </div>
       <a href="/omakase" class="header-nav-link">
-        Omakase
+        NIDAIME OMAKASE
         <div class="underline-animation"></div>
       </a>
       <a href="https://yugen.vouchercart.com/app/" class="header-nav-link" target="_blank">
@@ -44,7 +48,7 @@
           <div id="mobileLogo" class="hidden header-logo">
         {% endif %}
           <a href="/">
-            <img src="/img/logo.svg" width="70" alt="logo" class="animate__animated animate__fadeIn">
+            <img src="/img/logo.png" width="70" alt="logo" class="animate__animated animate__fadeIn">
           </a>
         </div>
 
@@ -113,7 +117,7 @@
           Menu
         </a> -->
         <a href="/omakase" class="nav-link nav-link animate__animated animate__fadeIn">
-          Omakase
+          NIDAIME OMAKASE
         </a>
         <!-- <a href="https://shop.yugenteabar.com.au/" target="_blank"
           class="nav-link animate__animated animate__fadeIn">
