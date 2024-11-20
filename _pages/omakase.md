@@ -22,7 +22,7 @@ beverage_pairing:
     price: $55pp
   - title: Tea Flight
     price: $45pp
-availability: Every Wednesday - Sunday evening.
+availability: "Every Wednesday - Sunday evening.\n\nPrivate Dining\nPrivate\_dining\_offers the opportunity to savour everything Nidaime has to offer in a space that is exclusively yours. Perfect for birthdays, intimate celebrations, or a unique gathering for up to 8 guests.\nFor more information and to enquire, email info@yugendining.com.au\n"
 popup_terms_title: Omakase Terms & Conditions
 popup_terms_text: >-
   <b>Yugen Nidaime Omakase offer two sessions each night:</b> <br />   1st
