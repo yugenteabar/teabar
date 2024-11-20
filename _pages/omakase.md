@@ -17,7 +17,7 @@ price: $175 per person
 beverage_pairing:
   - title: Sake Flight
     price: $35pp
-  - title: Deep Impression–Premium Sake Flight
+  - title: Premium Sake Flight
     price: $55pp
   - title: Tea Flight
     price: $45pp
