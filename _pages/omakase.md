@@ -18,8 +18,8 @@ beverage_pairing:
     price: 35pp
   - title: Deep Impression–Sake Flight
     price: 55pp
-  - title: Tea Discovery
-    price: 75pp
+  - title: Tea Flight
+    price: 45pp
 availability: 'Wednesday to Sunday. Dinner only. 6pm or 8:30pm'
 popup_terms_title: Omakase Terms & Conditions
 popup_terms_text: >-
