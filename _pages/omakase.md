@@ -21,7 +21,7 @@ beverage_pairing:
     price: $55pp
   - title: Tea Flight
     price: $45pp
-availability: Every Wednesday - Sunday. Dinner only.
+availability: Every Wednesday - Sunday evening.
 popup_terms_title: Omakase Terms & Conditions
 popup_terms_text: >-
   <b>Yugen Nidaime Omakase offer two sessions each night:</b> <br />   1st
