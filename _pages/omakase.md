@@ -17,8 +17,8 @@ price: $175 per person
 beverage_pairing:
   - title: First Sip–Sake Flight
     price: $35pp
-  - title: Deep Impression–Sake Flight
-    price: 55pp
+  - title: Deep Impression–Premium Sake Flight
+    price: $55pp
   - title: Tea Flight
     price: 45pp
 availability: Every Wednesday - Sunday. Dinner only.
