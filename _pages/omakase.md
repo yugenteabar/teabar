@@ -20,7 +20,7 @@ beverage_pairing:
   - title: Deep Impression–Premium Sake Flight
     price: $55pp
   - title: Tea Flight
-    price: 45pp
+    price: $45pp
 availability: Every Wednesday - Sunday. Dinner only.
 popup_terms_title: Omakase Terms & Conditions
 popup_terms_text: >-
