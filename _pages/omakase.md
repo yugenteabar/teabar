@@ -9,8 +9,8 @@ hero_images:
   - /uploads/Nidaime Low Res-5.jpg
   - /uploads/Nidaime Low Res-2-.jpg
   - /uploads/Nidaime Low Res-1.jpg
-nidaime_logo: /uploads/Nidaime Low Res-7.jpg
-title: ' NIDAIME OMAKASE at Yūgen Tea Bar'
+nidaime_logo: /uploads/Nidaime_PO_JL7510.jpg
+title: ' NIDAIME OMAKASE'
 main_text: "Immerse yourself in the enigmatic world of\_Nidaime\_Omakase.\n\nOmakase is a culinary journey guided by the chef, seasonal produce, and creativity. Our talented Chefs\_and Sommeliers curate a refined multi-course menu right before your eyes, that goes beyond the ordinary and features the finest seasonal ingredients sourced. Our\_ever-evolving\_beverage menu\_includes small release, rare & one-off Sake, Tea & Whisky’s available\_to complement your dining journey.\n\nHosted at\_Yūgen\_Tea Bar,\_this intimate 8 seater Chef-to-Guest experience\_serves as\_an\_incubator for experimental\_ideas in a\_laid-back\_and entertaining space.\n"
 price: $175
 beverage_pairing:
