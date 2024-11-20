@@ -12,7 +12,7 @@ hero_images:
   - /uploads/Nidaime_PO_JL7357.jpg
 nidaime_logo: ''
 title: ' NIDAIME OMAKASE'
-main_text: "Immerse yourself in the enigmatic world of\_Nidaime\_Omakase.\n\nOmakase is a culinary journey guided by the chef, seasonal produce, and creativity. Our talented Chefs\_and Sommeliers curate a refined multi-course menu right before your eyes, that goes beyond the ordinary and features the finest seasonal ingredients sourced. Our\_ever-evolving\_beverage menu\_includes small release, rare & one-off Sake, Tea & Whisky’s available\_to complement your dining journey.\n\nHosted at\_Yūgen\_Tea Bar,\_this intimate 8 seater Chef-to-Guest experience\_serves as\_an\_incubator for experimental\_ideas in a\_laid-back\_and entertaining space.\n"
+main_text: "Immerse yourself in the enigmatic world of\_Nidaime\_Omakase, hosted at Yūgen\_Tea Bar.\n\nOmakase is a culinary journey guided by the chef, seasonal produce, and creativity. Our talented Chefs\_and Sommeliers curate a refined multi-course menu right before your eyes, that goes beyond the ordinary and features the finest seasonal ingredients sourced. Our\_ever-evolving\_beverage menu\_includes small release, rare & one-off Sake, Tea & Whisky’s available\_to complement your dining journey.\n\nThis is an intimate 8 seater Chef-to-Guest experience in a\_laid-back\_and entertaining space. Enjoy up to 15 bite-sized courses which includes 4 starters, 9 courses of sushi, and dessert.\n"
 price: $175 per person
 beverage_pairing:
   - title: First Sip–Sake Flight
@@ -46,7 +46,7 @@ popup_terms_text: >-
   cancellation fee per person.  <br />   Please note a 15% surcharge apply on
   Sunday and public holidays.  <br />  Credit card payments will incur a
   processing fee Mastercard / Visa 1.2% - Amex/ Other 1.6%.
-button_text: BOOK now
+button_text: BOOK NOW
 button_link: >-
   https://www.opentable.com/booking/experiences-availability?rid=158744&restref=158744&experienceId=191894&utm_source=external&utm_medium=referral&utm_campaign=shared
 _template: omakase
