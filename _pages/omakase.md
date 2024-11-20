@@ -16,12 +16,12 @@ main_text: "Immerse yourself in the enigmatic world of\_Nidaime\_Omakase.\n\nOma
 price: $175 per person
 beverage_pairing:
   - title: First Sip–Sake Flight
-    price: 35pp
+    price: $35pp
   - title: Deep Impression–Sake Flight
     price: 55pp
   - title: Tea Flight
     price: 45pp
-availability: 'Wednesday to Sunday. Dinner only. 6pm or 8:30pm'
+availability: Every Wednesday - Sunday. Dinner only.
 popup_terms_title: Omakase Terms & Conditions
 popup_terms_text: >-
   <b>Yugen Nidaime Omakase offer two sessions each night:</b> <br />   1st
