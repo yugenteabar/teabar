@@ -16,8 +16,8 @@ price: $175
 beverage_pairing:
   - title: First Sip–Sake Flight
     price: 35pp
-  - title: Prestige Sake & Wine Pairing
-    price: 165pp
+  - title: Deep Impression–Sake Flight
+    price: 55pp
   - title: Tea Discovery
     price: 75pp
 availability: 'Wednesday to Sunday. Dinner only. 6pm or 8:30pm'
