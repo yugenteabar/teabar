@@ -1,7 +1,7 @@
 ---
 permalink: //
 layout: index
-meta_description: 'Yugen Tea Bar, located Chapel St, South Yarra'
+meta_description: 'YTB (Yugen Tea Bar) located Chapel Street, South Yarra'
 title: Homepage
 show_popup: false
 popup_title: Father's Day
